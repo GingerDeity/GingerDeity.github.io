@@ -1,8 +1,12 @@
 main:
-  - title: "Posts"
-    url: /posts/
-  - title: "Categories"
-    url: /categories/
+  - title: "Games"
+    url: /games/
+  - title: "Paintings"
+    url: /art/
+  - title: "Music"
+    url: /music/    
+  - title: "Misc."
+    url: /misc/
   - title: "Tags"
     url: /tags/
   - title: "About"
