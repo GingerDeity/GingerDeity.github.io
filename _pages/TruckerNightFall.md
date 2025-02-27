@@ -18,13 +18,14 @@ This game resulted from a school game jam that lasted 48 hours in the Spring sem
 
 The gameplay itself is very simple, and more story-driven. We wanted to tell the tale of an insomniac truck driver, whose demanding schedule is pushing himself further away from the family he is trying so desperately to provide for. All you're trying to do is stay on the road as the controls get slippier and more obstacles such as other trucks and potholes emerge. What the game truly excels in is the atmosphere, aiming for a low-poly PS1/N64 era art style that, when combined with the CRT effect, creates an environment dripping with personality. Unfortunately, my video software was having difficulty recording gameplay, so I've attached a screenshot below:
 
-{% include feature_row %}
+![Alt text](/assets/images/rainfall_background.PNG)
 
-What I'm most proud of in this game is the atmosphere, as the sound design and art (all of which were synthesized and drawn by me) all coalesce together into one scene beautifully. It almost feels like it's not your eyes that are gazing out the window, but your past self's eyes. This is a game that you can play for a few moments on your computer, go back to work, and the atmosphere will be right there waiting for you. One thing I believe games can do is to create safe spaces for their users, and I think this game accomplished that brilliantly.
+Upon replaying this game, one aspect I was proud of was not only my modeling but the density of the story and the voice acting of my fellow developers. I found myself able to relate to the character's struggle of balancing his work with his family, and the internal journey he went through was similar to one I had been through before.
 
 # Development
-Development went on far longer than initially expected, as all I planned to do when redesigning the original idea was have the user collect raindrops. There were no plans for items or an inventory, just you and the rain. Once I designed the final background as shown, I knew I had to go the extra mile.
-![Alt text](/assets/images/rainfall_background.PNG)
+Development revolved all around me learning Blender and getting models out as quickly as possible. One very smart play I did was to aim for that early PS1 aesthetics I mentioned earlier, as that style would help disguise my amateur models. Here's some of the models I created:
+
+{% include feature_row %}
 
 To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items.
 
@@ -42,19 +43,3 @@ Considering how dependent on the atmosphere this game would be, it was crucial t
 <audio controls>
   <source src="/assets/audio/drop_touch.wav" type="audio/wav">
 </audio>
-
-# How to Play and Download
-Download:
-- To play the game yourself, simply follow the itch.io link below, download the .exe file, and it should work on any Windows machine!
-- <a href="https://atreyum.itch.io/rainfall" target="_blank" rel="noopener noreferrer">Download here</a>
-
-Controls:
-- Left-Click: pick-up/drop items, purchase items, add/subtract to/from inventory
-- Space: reset current item's rotation
-- Right-Click: when used on the music box, music will play
-- Scroll Wheel: navigate the shop
-- Escape: quit the game
-
-Items:
-- Stickers: items with "sticker" in the name can be placed anywhere on the window, including its borders!
-- Items: all other items are affected by gravity and physics, they can only be dropped onto the sill
