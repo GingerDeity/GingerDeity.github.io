@@ -15,6 +15,27 @@ feature_row:
   - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-05.png
   - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-06.png
   - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-07.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-08.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-09.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-10.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-11.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-12.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-13.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-14.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-15.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-16.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-17.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-18.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-19.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-20.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-21.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-22.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-23.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-24.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-25.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-26.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-27.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-28.png
 ---
 
 # Pain's Walls
