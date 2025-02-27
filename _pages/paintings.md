@@ -1,6 +1,6 @@
 ---
 permalink: /paintings/
-title: "Acrycllic Kalleidoscope of Moments"
+title: "Acrylic Kalleidoscope of Moments"
 layout: splash
 header:
   overlay_color: "#000"
@@ -8,10 +8,13 @@ header:
   overlay_image: /assets/images/paintings-back.jpg
   excerpt: "These are my paintings, the collection of which shares the above name. All are centered mostly around landscapes and 'moments', enjoy!"
 feature_row:
-  - image_path: /assets/images/rainfall_items_plain.png
-    excerpt: "Items without background"
-  - image_path: /assets/images/rainfall_items_full.png
-    excerpt: "Items with early-version background"
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-01.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-02.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-03.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-04.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-05.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-06.png
+  - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-07.png
 ---
 
 # Pain's Walls
