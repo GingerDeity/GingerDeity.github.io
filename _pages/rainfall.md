@@ -6,9 +6,19 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/rainfall_back.png
+feature_row:
+- image_path: /assets/images/rainfall_items_plain.png
+    alt: "placeholder image 1"
+    title: "Placeholder 1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+- image_path: /assets/images/rainfall_items_full.png
+    alt: "placeholder image 2"
+    title: "Placeholder 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
 ---
-
-{% include feature_row %}
 
 # Description
 The original vision for this game came from a game jam that only lasted 90 minutes. There were no win-or-lose conditions, all you could do was click raindrops that would fall in front of a city backdrop with the song "Beneath the Mask" by Shoji Meguro playing in the background. When considering what projects I thought would best show my personality and interests in this portfolio, this was the first that came to mind.
@@ -27,15 +37,4 @@ Development went on far longer than initially expected, as all I planned to do w
 
 To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items.
 
-feature_row:
-- image_path: /assets/images/rainfall_items_plain.png
-    alt: "placeholder image 1"
-    title: "Placeholder 1"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-- image_path: /assets/images/rainfall_items_full.png
-    alt: "placeholder image 2"
-    title: "Placeholder 2"
-    excerpt: "This is some sample content that goes here with **Markdown** formatting."
-    url: "#test-link"
-    btn_label: "Read More"
-    btn_class: "btn--inverse"
+{% include feature_row %}
