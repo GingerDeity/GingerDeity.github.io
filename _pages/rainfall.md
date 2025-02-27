@@ -9,5 +9,7 @@ header:
 excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger"
 ---
 
-# Rainfall
-Something I mentioned in my letter of intent was how I wanted 
+# Introduction
+The original vision for this game came from a game jam that only lasted 90 minutes. There were no win-or-lose conditions, all you could do was click raindrops that would fall in front of a city backdrop with the song "Beneath the Mask" by Shoji Meguro playing in the background. When considering what projects I thought would best show my personality and interests in this portfolio, this was the first that came to mind.
+
+It reminded me of the simple joy of poking at raindrops on the car windows during road trips, which then had me reminiscing about the knick-knacks I would collect on my childhood bedroom windowsill. When looking at the original game, I decided to add items you could get by trading raindrops, as well as a grid inventory system. This game is meant to replicate that very personal experience, so all the items you can collect are things I either had or wanted to have on my windowsill when I was younger.
