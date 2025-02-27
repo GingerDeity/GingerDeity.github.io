@@ -5,7 +5,7 @@ title: "Games"
 
 this is where the games will go. no unlimited bacon, just games
 - [Game 1](/games/rainfall/)
-  - (/assets/images/Rainfall.PNG)
+  - ![Alt text](/assets/images/Rainfall.PNG)
   - description
 - [Game 2](/games/truckernightfall/)
 - [Game 3](/games/pikmin2d/)
