@@ -1,17 +1,21 @@
 ---
 permalink: /games/
 title: "Games"
+layout: splash
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/egypt_photo.jpg
+excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger"
 ---
 
 this is where the games will go. no unlimited bacon, just games
 - [Game 1](/games/rainfall/)
     ![Alt text](/assets/images/Rainfall.PNG)
-  - description
+    description
 - [Game 2](/games/truckernightfall/)
+    ![Alt text](/assets/images/Rainfall.PNG)
+    description 2
 - [Game 3](/games/pikmin2d/)
-
-- BAM
-  BY MY POWER
-  <iframe width="560" height="315" src="https://www.youtube.com/embed/9OZ-yNdKw3o?si=vs3jf1AZZGEoOICv" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-- Super Mario Bros. 2
-- BAM: the zequel
+    ![Alt text](/assets/images/Rainfall.PNG)
+    description 3
