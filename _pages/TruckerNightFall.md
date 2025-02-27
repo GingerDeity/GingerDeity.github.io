@@ -7,10 +7,16 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/trucker-night-fall-title.png
 feature_row:
-  - image_path: /assets/images/trucker-night-fall-title.png
-    excerpt: "Items without background"
-  - image_path: /assets/images/rainfall_items_full.png
-    excerpt: "Items with early-version background"
+  - image_path: /assets/images/truck.png
+    excerpt: "Truck Model"
+  - image_path: /assets/images/dash.png
+    excerpt: "Dashboard and Truck Models"
+  - image_path: /assets/images/girl.png
+    excerpt: "Mirage Girl Model"
+  - image_path: /assets/images/tree2.png
+    excerpt: "Tree Model"
+  - image_path: /assets/images/deer.png
+    excerpt: "Deer Model"
 ---
 
 # Description
@@ -31,12 +37,6 @@ To stay true to the personal goals of this game, I elected to base all the items
 
 Considering how dependent on the atmosphere this game would be, it was crucial to get the sound design as high quality as possible. This involved using the web version of Audacity, called Wavacity, and synthesizing together sounds for dropping items, the swaying of the tree, and, of course, the rain.
 
-<audio controls>
-  <source src="/assets/audio/rainfall.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/lego_minecraft_drop.wav" type="audio/wav">
-</audio>
 <audio controls>
   <source src="/assets/audio/rock_drop.wav" type="audio/wav">
 </audio>
