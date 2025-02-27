@@ -35,6 +35,6 @@ To stay true to the personal goals of this game, I elected to base all the items
 Considering how dependent on the atmosphere this game would be, it was crucial to get the sound design as high quality as possible. This involved using the web version of Audacity, called Wavacity, and synthesizing together sounds for dropping items, the swaying of the tree, and, of course, the rain.
 
 <audio controls>
-  <source src="/assets/audio/rainfall.wav" type="audio/mpeg">
-  <source src="/assets/audio/drop_touch.wav" type="audio/mpeg">  
+  <source src="/assets/audio/rainfall.wav" type="audio/wav">
+  <source src="/assets/audio/drop_touch.wav" type="audio/wav">  
 </audio>
