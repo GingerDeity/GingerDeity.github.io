@@ -28,6 +28,6 @@ To stay true to the personal goals of this game, I elected to base all the items
 
 feature_row:
   - image_path: /assets/images/rainfall_items_plain.png
-    excerpt: Items with no background"
+    title: "Items with no background"
   - image_path: /assets/images/rainfall_items_full.png
-    excerpt: "Items with early-version background"
+    title: "Items with early-version background"
