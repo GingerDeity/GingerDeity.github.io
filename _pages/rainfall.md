@@ -15,3 +15,7 @@ The original vision for this game came from a game jam that only lasted 90 minut
 It reminded me of the simple joy of poking at raindrops on the car windows during road trips, which then had me reminiscing about the knick-knacks I would collect on my childhood bedroom windowsill. When looking at the original game, I decided to add items you could get by trading raindrops, as well as a grid inventory system. This game is meant to replicate that very personal experience, so all the items you can collect are things I either had or wanted to have on my windowsill when I was younger.
 
 What I'm most proud of in this game is the atmosphere, the sound design and the art (all of which was synthesized and drawn by me) all come together beautifully, and it almost feels like it's not your eyes that are gazing out the window, but your past self's eyes. This is a game that you can play for a few moments on your computer, go back to work, and the atmosphere will be right there waiting for you. One thing I believe games can do is to create safe spaces for their users, and I think this game accomplished that brilliantly. I've attached a video of gameplay below:
+
+<video width="320" height="240" controls>
+  <source src="/assets/videos/rainfall.mp4" type="video/mp4">
+</video>
