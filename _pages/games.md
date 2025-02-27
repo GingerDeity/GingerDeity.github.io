@@ -4,9 +4,9 @@ title: "Games"
 ---
 
 this is where the games will go. no unlimited bacon, just games
--[Game 1](/games/rainfall/)
--[Game 2](/games/truckernightfall/)
--[Game 3](/games/pikmin2d/)
+- [Game 1](/games/rainfall/)
+- [Game 2](/games/truckernightfall/)
+- [Game 3](/games/pikmin2d/)
 
 - BAM
   BY MY POWER
