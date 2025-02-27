@@ -5,7 +5,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/rainfall_back.png
+  overlay_image: /assets/images/trucker-night-fall-title.png
 feature_row:
   - image_path: /assets/images/rainfall_items_plain.png
     excerpt: "Items without background"
