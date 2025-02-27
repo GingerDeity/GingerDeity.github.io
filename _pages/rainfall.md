@@ -10,4 +10,4 @@ excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger"
 ---
 
 # Rainfall
-rainfall description
+Something I mentioned in my letter of intent was how I wanted 
