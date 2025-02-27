@@ -22,3 +22,12 @@ What I'm most proud of in this game is the atmosphere, as the sound design and a
 
 # Development
 Development went on far longer than initially expected, as all I planned to do when redesigning the original idea was have the user collect raindrops. There were no plans for items or an inventory, just you and the rain. Once I designed the final background as shown, I knew I had to go the extra mile.
+![Alt text](/assets/images/rainfall_background.PNG)
+
+To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items.
+
+feature_row:
+  - image_path: /assets/images/rainfall_items_plain.png
+    excerpt: Items with no background"
+  - image_path: /assets/images/rainfall_items_full.png
+    excerpt: "Items with early-version background"
