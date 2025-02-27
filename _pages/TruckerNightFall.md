@@ -24,7 +24,7 @@ This game resulted from a school game jam that lasted 48 hours in the Spring sem
 
 The gameplay itself is very simple, and more story-driven. We wanted to tell the tale of an insomniac truck driver, whose demanding schedule is pushing himself further away from the family he is trying so desperately to provide for. All you're trying to do is stay on the road as the controls get slippier and more obstacles such as other trucks and potholes emerge. What the game truly excels in is the atmosphere, aiming for a low-poly PS1/N64 era art style that, when combined with the CRT effect, creates an environment dripping with personality. Unfortunately, my video software was having difficulty recording gameplay, so I've attached a screenshot below:
 
-![Alt text](/assets/images/rainfall_background.PNG)
+![Alt text](/assets/images/trucker-night-fall-title.png)
 
 Upon replaying this game, one aspect I was proud of was not only my modeling but the density of the story and the voice acting of my fellow developers. I found myself able to relate to the character's struggle of balancing his work with his family, and the internal journey he went through was similar to one I had been through before.
 
