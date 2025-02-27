@@ -46,3 +46,19 @@ Considering how dependent on the atmosphere this game would be, it was crucial t
 <audio controls>
   <source src="/assets/audio/drop_touch.wav" type="audio/wav">
 </audio>
+
+# How to Play and Download
+Download:
+- To play the game yourself, simply download the zip file, extract it, and it should work on any Windows machine!
+- button here
+
+Controls:
+- Left-Click: pick-up/drop items, purchase items, add/subtract to/from inventory
+- Space: reset current item's rotation
+- Right-Click: when used on the music box, music will play
+- Scroll Wheel: navigate the shop
+- Escape: quit the game
+
+Items:
+- Stickers: items with "sticker" in the name can be placed anywhere on the window, including its borders!
+- Items: all other items are affected by gravity and physics, they can only be dropped onto the sill
