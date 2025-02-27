@@ -1,10 +1,10 @@
 main:
   - title: "Highlights"
-    url: /games/
+    url: /highlights/
   - title: "Games"
     url: /games/
   - title: "Paintings"
-    url: /art/
+    url: /paintings/
   - title: "Music"
     url: /music/    
   - title: "Misc."
