@@ -49,8 +49,8 @@ Considering how dependent on the atmosphere this game would be, it was crucial t
 
 # How to Play and Download
 Download:
-- To play the game yourself, simply download the zip file, extract it, and it should work on any Windows machine!
-- button here
+- To play the game yourself, simply follow the itch.io link below, download the .exe file, and it should work on any Windows machine!
+- <a href="https://atreyum.itch.io/rainfall" target="_blank" rel="noopener noreferrer"></a>
 
 Controls:
 - Left-Click: pick-up/drop items, purchase items, add/subtract to/from inventory
