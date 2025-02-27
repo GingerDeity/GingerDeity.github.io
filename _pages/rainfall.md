@@ -36,7 +36,7 @@ Considering how dependent on the atmosphere this game would be, it was crucial t
 
 <audio controls>
   <source src="/assets/audio/rainfall.wav" type="audio/wav">
-  <source src="/assets/audio/rainfall.wav" type="lego_minecraft_drop/wav">
-  <source src="/assets/audio/rainfall.wav" type="rock_drop/wav">
+  <source src="/assets/audio/lego_minecraft_drop.wav" type="audio/wav">
+  <source src="/assets/audio/rock_drop.wav" type="audio/wav">
   <source src="/assets/audio/drop_touch.wav" type="audio/wav">
 </audio>
