@@ -6,7 +6,6 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/rainfall_back.png
-excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger"
 ---
 
 # Description
@@ -26,4 +25,15 @@ Development went on far longer than initially expected, as all I planned to do w
 
 To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items.
 
-![Items without background](/assets/images/rainfall_items_plain.png) ![Items with early-version background](/assets/images/rainfall_items_full.png)
+feature_row:
+- image_path: /assets/images/rainfall_items_plain.png
+    alt: "placeholder image 1"
+    title: "Placeholder 1"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+- image_path: /assets/images/rainfall_items_full.png
+    alt: "placeholder image 2"
+    title: "Placeholder 2"
+    excerpt: "This is some sample content that goes here with **Markdown** formatting."
+    url: "#test-link"
+    btn_label: "Read More"
+    btn_class: "btn--inverse"
