@@ -9,13 +9,10 @@ header:
 excerpt: "Bacon ipsum dolor sit amet salami ham hock ham, hamburger"
 ---
 
-this is where the games will go. no unlimited bacon, just games
-- [Game 1](/games/rainfall/)
+These are the games and prototypes I'm most proud of, enjoy!
+- # [Rainfall](/games/rainfall/)
     ![Alt text](/assets/images/Rainfall.PNG)
-    description
-- [Game 2](/games/truckernightfall/)
-    ![Alt text](/assets/images/Rainfall.PNG)
-    description 2
-- [Game 3](/games/pikmin2d/)
-    ![Alt text](/assets/images/Rainfall.PNG)
-    description 3
+    A game where you trade raindrops for items for your windowsill. 
+- # [Trucker Night Fall](/games/truckernightfall/)
+    ![Alt text](/assets/images/trucker-night-fall.PNG)
+    A story-driven game where you try to drive your truck while coming to terms with your destructive lifestyle.
