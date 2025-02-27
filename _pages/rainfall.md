@@ -27,7 +27,7 @@ Development went on far longer than initially expected, as all I planned to do w
 To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items.
 
 gallery:
-  - image_path: /assets/images/rainfall_items_plain.png
-    title: "Items with no background"
-  - image_path: /assets/images/rainfall_items_full.png
-    title: "Items with early-version background"
+- image_path: /assets/images/rainfall_items_plain.png
+  title: "Items with no background"
+- image_path: /assets/images/rainfall_items_full.png
+  title: "Items with early-version background"
