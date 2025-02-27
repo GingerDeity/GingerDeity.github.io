@@ -8,6 +8,8 @@ header:
   overlay_image: /assets/images/rainfall_back.png
 ---
 
+{% include feature_row %}
+
 # Description
 The original vision for this game came from a game jam that only lasted 90 minutes. There were no win-or-lose conditions, all you could do was click raindrops that would fall in front of a city backdrop with the song "Beneath the Mask" by Shoji Meguro playing in the background. When considering what projects I thought would best show my personality and interests in this portfolio, this was the first that came to mind.
 
