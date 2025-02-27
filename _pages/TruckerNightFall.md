@@ -13,6 +13,8 @@ feature_row:
     excerpt: "Dashboard and Truck Models"
   - image_path: /assets/images/girl.png
     excerpt: "Mirage Girl Model"
+  - image_path: /assets/images/tree1.png
+    excerpt: "Pine Model"
   - image_path: /assets/images/tree2.png
     excerpt: "Tree Model"
   - image_path: /assets/images/deer.png
@@ -29,17 +31,8 @@ The gameplay itself is very simple, and more story-driven. We wanted to tell the
 Upon replaying this game, one aspect I was proud of was not only my modeling but the density of the story and the voice acting of my fellow developers. I found myself able to relate to the character's struggle of balancing his work with his family, and the internal journey he went through was similar to one I had been through before.
 
 # Development
-Development revolved all around me learning Blender and getting models out as quickly as possible. One very smart play I did was to aim for that early PS1 aesthetics I mentioned earlier, as that style would help disguise my amateur models. Here's some of the models I created:
+Development revolved all around me learning Blender and getting models out as quickly as possible. One very smart play I did was to aim for that early PS1 aesthetics I mentioned earlier, as that style would help disguise my amateur models. Here are some of the models I created:
 
 {% include feature_row %}
 
-To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items.
-
-Considering how dependent on the atmosphere this game would be, it was crucial to get the sound design as high quality as possible. This involved using the web version of Audacity, called Wavacity, and synthesizing together sounds for dropping items, the swaying of the tree, and, of course, the rain.
-
-<audio controls>
-  <source src="/assets/audio/rock_drop.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/drop_touch.wav" type="audio/wav">
-</audio>
+While all are fairly simple, they exude personality and atmosphere, and I learned a great deal about modeling because of this! Unfortunately, many of the original game files became corrupted, so I cannot offer any way to play this game. These images and descriptions are the only thing I can give to soothe the mysteries of this game...
