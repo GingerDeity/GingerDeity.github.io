@@ -11,7 +11,7 @@ excerpt: BAM
 
 # Lilty
 <audio controls>
-  <source src="/assets/audio/lilty.mp4" type="audio/mp4">
+  <source src="/assets/audio/lilty.ogg" type="audio/ogg">
 </audio>
 
 # Sad
