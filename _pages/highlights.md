@@ -5,14 +5,14 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/rainfall_back.png
+  overlay_image: /assets/images/highlights_back.png
 excerpt: These are the page links and entries that I consider to be the best of the best of my work, I hope you enjoy!
 ---
 
 # Games
 - ## [Rainfall (click here)](/games/rainfall/)
     A game where you trade raindrops for items for your windowsill.
-    ![Alt text](/assets/images/Rainfall.PNG)
+    ![Alt text](/assets/images/rainfall_back.png)
 - ## [Trucker Night Fall (click here)](/games/truckernightfall/)
     A story-driven game where you try to drive your truck while coming to terms with your destructive lifestyle.
     ![Alt text](/assets/images/trucker-night-fall-title.png)
