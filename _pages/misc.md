@@ -5,7 +5,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/rainfall_back.png
+  overlay_image: /assets/images/gobblerfestfront.png
 feature_row:
   - image_path: /assets/images/gobblerfestfront.png
     excerpt: "GobblerFest Flyer Front"
