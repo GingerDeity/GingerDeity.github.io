@@ -24,7 +24,7 @@ This song is just a simple shift from G minor to A minor and back to G minor, bu
 
 
 # Great Fairy Fountain, My Rendition
-This song is the only one here that is not an original composition by me, rather it's my rendition of the Great Fairy Fountain by Koji Kondo. It starts with the original song then shifts into a more complicated chord with octaves. This is on eof my favorite songs of all time, so to be able to share my version of it is an immesne honor!
+This song is the only one here that is not an original composition by me, rather it's my rendition of the Great Fairy Fountain by Koji Kondo. It starts with the original song, then shifts into a more complicated chord with octaves. This is one of my favorite songs of all time, so to be able to share my version of it is an immense honor!
 <audio controls>
   <source src="/assets/audio/fairy.mp4" type="audio/mp4">
 </audio>
