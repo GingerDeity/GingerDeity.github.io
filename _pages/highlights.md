@@ -5,7 +5,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/rainfall-back.png
+  overlay_image: /assets/images/rainfall_back.png
 excerpt: These are the page links and entries that I consider to be the best of the best of my work, I hope you enjoy!
 ---
 
