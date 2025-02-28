@@ -16,7 +16,7 @@ excerpt: BAM
 
 # Sad
 <audio controls>
-  <source src="/assets/audio/sad.mp4" type="audio/mp4">
+  <source src="/assets/audio/sad.wav" type="audio/wav">
 </audio>
 
 # Fairy
