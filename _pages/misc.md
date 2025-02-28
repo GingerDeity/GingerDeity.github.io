@@ -13,72 +13,19 @@ feature_row:
     excerpt: "Items with early-version background"
 ---
 
-# Poem 1
-_Why couldn't I be what
-you wanted me to be?
-Changing myself, like an 
-old toy painted over, an
-old train given new wheels, a 
-puppet who found his new strings
+# Heartstrings
+This was a poem that was meant to show the pain of loss and the unhealthy obsession that comes with it. In this, the puppet refers to his former lover as his old strings, yearning for that control again. He doesn't care for himself, he doesn't care for his freedom, he only cares for the strings that have hurt him so. What I'm most proud of for this work is the sheer amount of symbolism and different interpretations the reader can have. Was the lover actually in the right for leaving? Was the puppet really the hero? Is there even a lover, or is it just his own self-image he cannot please? It has many different readings, and I'm very pleased with it.
+<iframe src="/assets/files/Heartstrings.pdf" width="100%" height="600px"></iframe>
 
-You and your little gestures
-and playful manipulations of 
-my ere-ticking cuckoo-clock heart
-gave me my motions, 
-staging for me my emotions
-
-But now with cut silk strings,
-can I move without you,
-can't I move with you more,
-can I move on from you, oh
-can't I move on with you?
-
-Lifeless the toyed soul lays as the
-impact of that aimless fall
-triggers inner strings to tripwires,
-transforming finely-tuned turns
-of ligaments and nerves into
-passionate throws and fits!
-
-Oh, just let me be
-your personal little dummy 
-for you to hollow his throat 
-out with your own script and plays
-
-Pleading, just let me be
-your own little automaton
-for you to tie my hands into 
-whatever time you desire
-
-Crying out, just let me be,
-oh just let me be for you!
-You played my heartstrings,
-and now across the room they
-splay and spread, scattered
-from the alarmed springs and
-ticks of my arrhythmic, stringless,
-shattered little heart!
-
-Play with me again! Put me back 
-in your cupboard for another rainy day!
-Let my painted smile give you pleasure
-in ways I can never display for myself!
-
-A web of acoustics now knotted
-over every single surface.
-You played my heartstrings well,
-and now maybe, just maybe,
-you can be tangled with me too._
-
-# Poem 2
-
+# Silk Magnolias
+Another poem, though far less dramatic than the last. This was inspired by my (as of 2025) six-year-old sister who I've watched grow up since I was sixteen. There's something about seeing something so fragile that will likely outlive you, about seeing something that doesn't know itself the same wya that you do. While I'm no father, I feel like her existence has given me a fraction of a glimpse into what that life would look like. I envy the eyes of a child's, naive yet truly magnificent in its own right. This poem is meant to show that.
+<iframe src="/assets/files/SilkMagnolias.pdf" width="100%" height="600px"></iframe>
 
 # Sound Design
-
+blarg
 
 # Promotional Flyers
-
+blarg
 <video controls width="100%">
   <source src="/assets/videos/rainfall.mp4" type="video/mp4">
 </video>
-- Items: all other items are affected by gravity and physics, they can only be dropped onto the sill
