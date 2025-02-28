@@ -14,12 +14,12 @@ excerpt: BAM
   <source src="/assets/audio/lilty.mp4" type="audio/mp4">
 </audio>
 
-# Song 2
+# Sad
 <audio controls>
   <source src="/assets/audio/sad.mp4" type="audio/mp4">
 </audio>
 
-# Song 3
+# Fairy
 <audio controls>
   <source src="/assets/audio/fairy.mp4" type="audio/mp4">
 </audio>
