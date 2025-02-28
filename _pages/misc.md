@@ -6,6 +6,7 @@ header:
   overlay_color: "#000"
   overlay_filter: "0.5"
   overlay_image: /assets/images/gobblerfestfront.png
+excerpt: These are all the items that didn't fit into one specific category, but that I still liked!
 feature_row:
   - image_path: /assets/images/gobblerfestfront.png
     excerpt: "GobblerFest Flyer Front"
@@ -33,4 +34,3 @@ This is from a meeting I hosted where I taught the audience of the Game Developm
 These are promotional flyers I made for the Game Development Club at Virginia Tech, inspired by early Atari and Commodore 64 commercials and a general 70s aesthetics. One was made for a school event called GobblerFest and the other was for our Spring Game Jam of 2025. I'm impressed by how well they came out considering I've never done any graphic design before!
 
 {% include feature_row %}
-<iframe src="/assets/files/SilkMagnolias.pdf" width="100%" height="600px"></iframe>
