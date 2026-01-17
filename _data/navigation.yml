@@ -1,6 +1,4 @@
 main:
-  - title: "Blog"
-    url: /posts/
   - title: "Highlights"
     url: /highlights/
   - title: "Games"
