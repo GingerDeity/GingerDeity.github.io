@@ -48,7 +48,7 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Test"
+  name   : "Atreyu McLewin"
   avatar : "/assets/images/bio-pic2.jpg"
   bio    : "A C.S. major and mathematics minor who also loves the creative aspects of life! If you love what you do, you'll never work harder."
   links:
