@@ -34,7 +34,7 @@ paginate_path: /page:num/
 timezone: America/Indiana/Indianapolis # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 include:
-  - _posts
+  #- _posts
   - _pages
 
 # Plugins (previously gems:)
