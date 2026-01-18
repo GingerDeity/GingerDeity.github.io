@@ -12,10 +12,10 @@ Hello, as you may have guessed, my name is Atreyu McLewin, and this is my websit
 {% assign recent_posts = site.posts | slice: 0, 3 %}
 {% for post in recent_posts %}
   <article class="recent-post">
-    <h3>
-      <a href="{{ post.url }}">{{ post.title }} <em>{{ post.date | date: "%B %d, %Y" }}*</em></a>
-    </h3>
-
+    <h4>
+      <a href="{{ post.url }}">{{ post.title }} <em>{{ post.date | date: "%B %d, %Y" }}</em></a>
+    </h4>
+    
     <p>
       {{ post.excerpt }}
     </p>
