@@ -13,7 +13,7 @@ Hello, as you may have guessed, my name is Atreyu McLewin, and this is my websit
 {% for post in recent_posts %}
   <article class="recent-post">
     <h3>
-      <a href="{{ post.url }}">{{ post.title }}*{{ post.date | date: "%B %d, %Y" }}*</a>
+      <a href="{{ post.url }}">{{ post.title }}<em>{{ post.date | date: "%B %d, %Y" }}*</em></a>
     </h3>
 
     <h5>
