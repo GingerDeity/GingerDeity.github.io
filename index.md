@@ -8,12 +8,10 @@ Hello, as you may have guessed, my name is Atreyu McLewin, and this is my websit
 
 ## Recent Posts
 
-{% for post in site.posts limit:3 %}
-##### [{{ post.title }}]({{ post.url }})
-*{{ post.date | date: "%B %d, %Y" }}*
+{% assign recent_posts = site.posts | slice: 0, 3 %}
 
-{{ post.excerpt }}
-
+{% for post in recent_posts %}
+{% include archive-single.html %}
 {% endfor %}
 
 [View all posts →](/blog/)
