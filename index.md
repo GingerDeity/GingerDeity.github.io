@@ -10,22 +10,16 @@ Hello, as you may have guessed, my name is Atreyu McLewin, and this is my websit
 ## Recent Posts
 
 {% assign recent_posts = site.posts | slice: 0, 3 %}
-
 {% for post in recent_posts %}
   <article class="recent-post">
     <h3>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      <a href="{{ post.url }}">{{ post.title }}*{{ post.date | date: "%B %d, %Y" }}*</a>
     </h3>
-
-    <p class="post-date">
-      {{ post.date | date: "%B %d, %Y" }}
-    </p>
 
     <h5>
       {{ post.excerpt }}
     </h5>
   </article>
 {% endfor %}
-
 
 [View all posts →](/blog/)
