@@ -12,7 +12,7 @@ Hello, as you may have guessed, my name is Atreyu McLewin, and this is my websit
 ### [{{ post.title }}]({{ post.url }})
 *{{ post.date | date: "%B %d, %Y" }}*
 
-### {{ post.excerpt }}
+{{ post.excerpt }}
 
 {% endfor %}
 
