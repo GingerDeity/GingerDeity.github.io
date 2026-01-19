@@ -3,6 +3,7 @@ title: Rainfall
 layout: splash
 classes: wide
 excerpt: rain game excerpt
+highlight: true
 permalink: /projects/rainfall/
 header:
   overlay_filter: "0.5"
