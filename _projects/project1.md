@@ -1,6 +1,5 @@
 ---
 title: Rainfall
-permalink: /games/rainfall/
 layout: splash 
 header:
   overlay_color: "#000"
