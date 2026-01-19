@@ -35,6 +35,11 @@ paginate_path: /blog/page:num/ #
 timezone: America/Indiana/Indianapolis # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 excerpt_separator: "<!--more-->"
 
+collections:
+  projects:
+    output: true
+    permalink: /projects/:name
+
 include:
   - _pages
 
