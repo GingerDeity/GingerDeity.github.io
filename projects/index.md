@@ -2,6 +2,7 @@
 layout: archive
 title: Projects
 permalink: /projects/
+paginate: true
 ---
 
 <div class="project-grid">
