@@ -9,7 +9,7 @@ header:
 excerpt: "These are the games I'm most proud of working on, enjoy!"
 ---
 
-- # [Rainfall](/games/rainfall/)
+- # [Rainfall](/projects/rainfall/)
     A game where you trade raindrops for items for your windowsill.
     ![Alt text](/assets/images/Rainfall.PNG)
 - # [Trucker Night Fall](/games/truckernightfall/)
