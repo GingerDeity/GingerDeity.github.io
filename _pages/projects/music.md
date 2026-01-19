@@ -1,6 +1,6 @@
 ---
 title: Simplicity's Waves
-permalink: /music/
+permalink: /projects/music/
 layout: splash
 header:
   overlay_color: "#000"
