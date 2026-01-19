@@ -3,15 +3,5 @@ main:
     url: /blog/
   - title: "Projects"
     url: /projects/
-  - title: "Highlights"
-    url: /highlights/
-  - title: "Games"
-    url: /games/
-  - title: "Paintings"
-    url: /paintings/
-  - title: "Music"
-    url: /music/    
-  - title: "Misc."
-    url: /misc/
   - title: "About"
     url: /about/
