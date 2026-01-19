@@ -1,7 +1,8 @@
 ---
 title: Rainfall
-layout: default
+layout: single
 classes: wide
+permalink: /projects/rainfall/
 header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/rainfall_back.png
