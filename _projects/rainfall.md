@@ -1,6 +1,6 @@
 ---
 title: Rainfall
-layout: single
+layout: default
 classes: wide
 header:
   overlay_filter: "0.5"
