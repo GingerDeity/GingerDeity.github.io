@@ -1,6 +1,6 @@
 ---
 title: Trucker Night Fall
-permalink: /games/truckernightfall/
+permalink: /projects/truckernightfall/
 layout: splash
 header:
   overlay_color: "#000"
