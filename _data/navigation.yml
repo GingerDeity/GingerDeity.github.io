@@ -1,6 +1,8 @@
 main:
   - title: "Blog"
     url: /blog/
+  - title: "Projects"
+    url: /projects/
   - title: "Highlights"
     url: /highlights/
   - title: "Games"
