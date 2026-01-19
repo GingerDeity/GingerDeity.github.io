@@ -1,8 +1,7 @@
 ---
 title: Rainfall
-layout: single
-classes: wide splash-header text-center
-suppress_header: false
+layout: splash
+classes: wide
 permalink: /projects/rainfall/
 header:
   overlay_filter: "0.5"
