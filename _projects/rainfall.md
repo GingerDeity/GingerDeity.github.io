@@ -1,6 +1,6 @@
 ---
 title: Rainfall
-layout: single
+layout: default
 classes: wide
 permalink: /projects/rainfall/
 header:
