@@ -1,13 +1,18 @@
 ---
-layout: single
+layout: archive
 title: Projects
+permalink: /projects/
 ---
 
-{% for project in site.projects %}
-  <article>
-    <h3>
-      <a href="{{ project.url }}">{{ project.title }}</a>
-    </h3>
-    <p>{{ project.excerpt }}</p>
-  </article>
-{% endfor %}
+<div class="project-grid">
+  {% assign projects = site.pages | where_exp:"p","p.path contains 'projects/'" %}
+  {% for project in projects %}
+    <div class="project-card">
+      <a href="{{ project.url }}">
+        <img src="{{ project.feature_row[0].image_path }}" alt="{{ project.title }}">
+        <h3>{{ project.title }}</h3>
+      </a>
+      <p>{{ project.excerpt }}</p>
+    </div>
+  {% endfor %}
+</div>
