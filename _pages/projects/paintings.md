@@ -1,6 +1,6 @@
 ---
-permalink: /paintings/
 title: "Acrylic Kalleidoscope of Moments"
+permalink: /projects/paintings/
 layout: splash
 header:
   overlay_color: "#000"
