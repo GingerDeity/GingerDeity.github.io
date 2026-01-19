@@ -27,9 +27,6 @@ Hello, as you may have guessed, my name is Atreyu McLewin, and this is my websit
 
 [See all highlights →](/highlights/)
 
-
-[See all highlights →](/highlights/)
-
 ## Recent Posts
 {% for post in site.posts limit:3 %}
 ### [{{ post.title }}]({{ post.url }}) - *{{ post.date | date: "%B %d, %Y" }}*
