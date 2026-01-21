@@ -59,4 +59,4 @@ One of my favorite quotes comes from author and philosopher Howard Thurman, who 
 
 # Contact Me
 - <atreyumclewin@gmail.com>
-- [My LinkedIn](www.linkedin.com/in/atreyu-mclewin-a48b5528a/)
+- [My LinkedIn](https://www.linkedin.com/in/atreyu-mclewin-a48b5528a/)
