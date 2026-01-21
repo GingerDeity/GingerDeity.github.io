@@ -1,4 +1,5 @@
 ---
+title: About Me
 layout: single
 author_profile: true
 classes: wide
@@ -57,5 +58,5 @@ My study was computer science, and in that field, my true passion is teaching an
 One of my favorite quotes comes from author and philosopher Howard Thurman, who says, “Don’t ask what the world needs. Ask what makes you come alive, and go do it. Because what the world needs is people who have come alive.” For me, programming, creating, and game design are what make me come alive, and through it I should hope to make others come alive as well. I hope you enjoy!
 
 # Contact Me
-- Email: atreyumclewin@gmail.com
-- LinkedIn: [LinkedIn](www.linkedin.com/in/atreyu-mclewin-a48b5528a/)
+- <atreyumclewin@gmail.com>
+- [My LinkedIn](www.linkedin.com/in/atreyu-mclewin-a48b5528a/)
