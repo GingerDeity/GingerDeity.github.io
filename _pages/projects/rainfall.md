@@ -34,7 +34,7 @@ This was my first time using the *Krita* software and adding finished art to a g
 
 To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items. I wisely chose to make development even faster by using mostly basic shapes and clones of items.
 
-<div class="text-center">
+<div class="page__content">
   {% include feature_row %}
 </div>
 
