@@ -2,7 +2,7 @@
 title: Trucker Night Fall
 permalink: /projects/truckernightfall/
 layout: splash
-excerpt: truck game excerpt
+excerpt: It's late at night, and you've still got so long to go...
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
