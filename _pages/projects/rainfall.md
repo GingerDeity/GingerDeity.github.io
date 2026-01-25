@@ -2,7 +2,7 @@
 title: Rainfall
 layout: splash
 classes: wide
-excerpt: It's your childhood windowsill, and it's raining outside. Poke at the raindrops, reminisce about those knick-knacks you'd collect...
+excerpt: It's your childhood windowsill, and it's raining outside...
 highlight: true
 permalink: /projects/rainfall/
 header:
@@ -34,7 +34,7 @@ This was my first time using the *Krita* software and adding finished art to a g
 
 To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items. I wisely chose to make development even faster by using mostly basic shapes and clones of items.
 
-<div class="page__content text-center">
+<div class="text-center">
   {% include feature_row %}
 </div>
 
@@ -43,28 +43,28 @@ Considering how dependent on the atmosphere this game would be, it was crucial t
 
 <div class="feature__wrapper text-center">
   <div class="feature__item">
-    <h4>Rain Ambience</h4>
+    <h5>Rain Ambience</h5>
     <audio controls>
       <source src="/assets/audio/rainfall.wav" type="audio/wav">
     </audio>
   </div>
 
   <div class="feature__item">
-    <h4>LEGO Item Drop</h4>
+    <h5>Clicky Items</h5>
     <audio controls>
       <source src="/assets/audio/lego_minecraft_drop.wav" type="audio/wav">
     </audio>
   </div>
 
   <div class="feature__item">
-    <h4>Rock Drop</h4>
+    <h5>Rock Items</h5>
     <audio controls>
       <source src="/assets/audio/rock_drop.wav" type="audio/wav">
     </audio>
   </div>
 
   <div class="feature__item">
-    <h4>UI Click</h4>
+    <h5>Click Raindrop</h5>
     <audio controls>
       <source src="/assets/audio/drop_touch.wav" type="audio/wav">
     </audio>
