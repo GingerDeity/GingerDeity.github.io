@@ -7,6 +7,9 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/paintings-back.jpg
 excerpt: "These are my paintings, the collection of which shares the above name. All are centered mostly around landscapes and 'moments', enjoy!"
+tags:
+  - art
+  - painting
 feature_row:
   - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-01.png
   - image_path: /assets/images/gallery/Adobe-Scan-Feb-27-2025-2-1-02.png
