@@ -28,7 +28,7 @@ This is from a meeting I hosted where I taught the audience of the Game Developm
 
 <iframe src="/assets/files/SoundDesign.pdf" width="100%" height="600px"></iframe>
 <iframe src="/assets/files/WavacityHelp.pdf" width="100%" height="600px"></iframe>
-[Download Sound Design Folder](/assets/downloads/SoundDesign101.zip)
+[Download Sound Design Folder](/assets/downloads/GameDevSounds.zip)
 
 # Promotional Materials
 These are promotional flyers I made for the Game Development Club at Virginia Tech, inspired by early Atari and Commodore 64 commercials and a general 70s aesthetic. One was made for a school event called GobblerFest, and the other was for our Spring Game Jam of 2025. I'm impressed by how well they came out, considering I've never done any graphic design before!
