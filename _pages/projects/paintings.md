@@ -40,6 +40,7 @@ feature_row:
 
 # Pain's Walls
 This is less of a 'painting' and more of a pencil drawing, where the only paint present is in the eyes. For those unfamiliar, this is a portrait of Hugh Laurie's character Dr. House from the show House M.D. This was a show I became intimately fond of, and his character was someone I found myself loving. Dr. House is one of the most inhuman and human characters I've ever met, endlessly logical yet with emotional motives, embracing pain while always running from it, he is a paradox. I fell in love with the show's portrayal of pain and how characters dealt with it, and so I made this as a sort of 'love letter' once I finished watching all nine seasons. The lines represent his callous logic, and the smudges around them symbolize his logic's hypocrisy and damaging nature to all observers. 
+<img src="/assets/images/house.png" alt="Pain's Walls" style="max-width: 20px; display: block; margin: 0 auto;">
 ![Alt text](/assets/images/house.png)
 
 # Where She Left
