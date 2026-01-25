@@ -2,7 +2,7 @@
 title: Rainfall
 layout: splash
 classes: wide
-excerpt: rain game excerpt
+excerpt: It's your childhood windowsill, and it's raining outside. Poke at the raindrops, reminisce about those knick-knacks you'd collect...
 highlight: true
 permalink: /projects/rainfall/
 header:
@@ -15,10 +15,9 @@ feature_row:
     excerpt: "Items with early-version background"
 ---
 
-<video auto-play="true" controls width="100%">
+<video autoplay muted loop playsinline controls width="100%">
   <source src="/assets/videos/rainfall.mp4" type="video/mp4">
 </video>
-It's your childhood windowsill, and it's raining outside. Enjoy the simple fun of poking at raindrops on the window, and reminisce about the knick-knacks you would collect on that bedroom windowsill.
 
 ## What It Is
 Rainfall is a cozy physics-based collectathon where you trade the raindrops you click on for nostalgic items that you arrange on a windowsill. There are no real objectives, no timers or rush, just you, the rain, and your memories.
@@ -31,27 +30,46 @@ It reminded me of the simple joy of poking at raindrops on the car windows durin
 ## Development
 ### Art
 This was my first time using the *Krita* software and adding finished art to a game, thus I opted to go for a simpler cartoony style that I felt I could draw and still look nice. Turns out that I liked drawing! When initially remastering the original game, there were still no plans for items or an inventory, but once I designed the final background as shown, I knew I had to go the extra mile. 
-![Game Background](/assets/images/rainfall_background.PNG)
+![Game Background](/assets/images/rainfall_background.png)
 
 To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items. I wisely chose to make development even faster by using mostly basic shapes and clones of items.
 
-{% include feature_row %}
+<div class="page__content text-center">
+  {% include feature_row %}
+</div>
 
 ### Audio
 Considering how dependent on the atmosphere this game would be, it was crucial to get the sound design as high-quality as possible. I used a web-based version of Audacity, called Wavacity, and synthesized together sounds for dropping items, the swaying of the tree, and, of course, the rain.
 
-<audio controls>
-  <source src="/assets/audio/rainfall.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/lego_minecraft_drop.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/rock_drop.wav" type="audio/wav">
-</audio>
-<audio controls>
-  <source src="/assets/audio/drop_touch.wav" type="audio/wav">
-</audio>
+<div class="feature__wrapper text-center">
+  <div class="feature__item">
+    <h4>Rain Ambience</h4>
+    <audio controls>
+      <source src="/assets/audio/rainfall.wav" type="audio/wav">
+    </audio>
+  </div>
+
+  <div class="feature__item">
+    <h4>LEGO Item Drop</h4>
+    <audio controls>
+      <source src="/assets/audio/lego_minecraft_drop.wav" type="audio/wav">
+    </audio>
+  </div>
+
+  <div class="feature__item">
+    <h4>Rock Drop</h4>
+    <audio controls>
+      <source src="/assets/audio/rock_drop.wav" type="audio/wav">
+    </audio>
+  </div>
+
+  <div class="feature__item">
+    <h4>UI Click</h4>
+    <audio controls>
+      <source src="/assets/audio/drop_touch.wav" type="audio/wav">
+    </audio>
+  </div>
+</div>
 
 Each sound you hear above is a sound effect from the game, and each one layers at least 2 different sounds together. I tried to have the sounds follow a 'story' of buildup, climax, then resolution. As an example, the "raindrop collected" sound is actually the sound of two raindrops, but the first one is far quieter and acts as the set-up for the second raindrop sound, the climax. Then there's a slight echo as a resolution to the sound. This mentality of telling a story was very helpful in creating satisfying sounds. 
 
