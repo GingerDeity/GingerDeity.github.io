@@ -5,15 +5,11 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/gobblerfestfront.png
-excerpt: Poetry from one of my favorite classes
-feature_row:
-  - image_path: /assets/images/gobblerfestfront.png
-    excerpt: "GobblerFest Flyer Front"
-  - image_path: /assets/images/gobblerfestback.png
-    excerpt: "GobblerFest Flyer Back"
-  - image_path: /assets/images/springjam.png
-    excerpt: "Spring Jam Flyer"
+  overlay_image: /assets/images/vt.png
+excerpt: Written works from one of my favorite classes at Virginia Tech!
+tags: 
+  - writing
+  - poetry
 ---
 
 ## Description
