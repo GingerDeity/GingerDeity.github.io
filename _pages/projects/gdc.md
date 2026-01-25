@@ -1,6 +1,6 @@
 ---
 title: Game Dev. Club Materials
-permalink: /misc/
+permalink: /projects/gamedevclub
 layout: splash
 highlight: true
 header:
@@ -16,13 +16,14 @@ excerpt: Graphic designs, presentations, and more from my time serving GDC at VT
 # Sound Design Meeting
 This is from a meeting I hosted where I taught the audience of the Game Development Club at Virginia Tech the basics of sound design. We added sound to an originally silent Zelda animation by user Txikimorin on the r/zelda subreddit. This was the example final product I made before the meeting, using free sound libraries and Wavacity.
 <video controls width="100%">
-  <source src="/assets/videos/SoundDesign.mp4" type="video/mp4">
+  <source src="/assets/videos/SoundDesignFinal.mp4" type="video/mp4">
 </video>
 
 <iframe src="/assets/files/SoundDesign.pdf" width="100%" height="600px"></iframe>
 <iframe src="/assets/files/WavacityHelp.pdf" width="100%" height="600px"></iframe>
-[Download Sound Design Folder](/assets/downloads/GameDevSounds.zip)
-[Download Sound Design Template Video](/assets/downloads/SoundDesignVideo.zip)
+
+[Download Template Sounds](/assets/downloads/GameDevSounds.zip)  
+[Download Template Video](/assets/downloads/SoundDesignVideo.zip)
 
 # Promotional Materials
 These are promotional flyers I made for the Game Development Club at Virginia Tech, inspired by early Atari and Commodore 64 commercials and a general 70s aesthetic. One was made for a school event called GobblerFest, and the other was for our Spring Game Jam of 2025. I'm impressed by how well they came out, considering I've never done any graphic design before!
