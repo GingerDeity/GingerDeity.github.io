@@ -19,13 +19,6 @@ tags:
   - krita
 ---
 
-<p class="page__taxonomy">
-  <strong><i class="fas fa-tags"></i> Tags:</strong>
-  {% for tag in page.tags %}
-    <span class="page__taxonomy-item">{{ tag }}</span>
-  {% endfor %}
-</p>
-
 <video autoplay muted loop playsinline controls width="100%">
   <source src="/assets/videos/rainfall.mp4" type="video/mp4">
 </video>
@@ -102,3 +95,10 @@ What I'm most proud of in this game is the atmosphere, as the sound design and a
 
 ## Play for yourself
 Simply click [here](https://atreyum.itch.io/rainfall), download the .exe file, and it should work on any Windows machine!
+
+<p class="page__taxonomy">
+  <strong><i class="fas fa-tags"></i> Tags:</strong>
+  {% for tag in page.tags %}
+    <span class="page__taxonomy-item">{{ tag }}</span>
+  {% endfor %}
+</p>
