@@ -34,9 +34,7 @@ This was my first time using the *Krita* software and adding finished art to a g
 
 To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items. I wisely chose to make development even faster by using mostly basic shapes and clones of items.
 
-<div class="page__content">
-  {% include feature_row %}
-</div>
+{% include feature_row %}
 
 ### Audio
 Considering how dependent on the atmosphere this game would be, it was crucial to get the sound design as high-quality as possible. I used a web-based version of Audacity, called Wavacity, and synthesized together sounds for dropping items, the swaying of the tree, and, of course, the rain.
