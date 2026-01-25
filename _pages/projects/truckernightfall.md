@@ -20,6 +20,10 @@ feature_row:
     excerpt: "Tree Model"
   - image_path: /assets/images/deer.png
     excerpt: "Deer Model"
+tags:
+  - godot
+  - game
+  - blender
 ---
 
 # Description
@@ -37,3 +41,11 @@ Development revolved all around me learning Blender and getting models out as qu
 {% include feature_row %}
 
 While all are fairly simple, they exude personality and atmosphere, and I learned a great deal about modeling because of this! Unfortunately, many of the original game files became corrupted, so I cannot offer any way to play this game. These images and descriptions are the only thing I can give to soothe the mysteries of this game...
+
+
+<p class="page__taxonomy">
+  <strong><i class="fas fa-tags"></i> Tags:</strong>
+  {% for tag in page.tags %}
+    <span class="page__taxonomy-item">{{ tag }}</span>
+  {% endfor %}
+</p>
