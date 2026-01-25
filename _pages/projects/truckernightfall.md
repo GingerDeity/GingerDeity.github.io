@@ -9,17 +9,17 @@ header:
   overlay_image: /assets/images/trucker-night-fall-title.png
 feature_row:
   - image_path: /assets/images/truck.png
-    excerpt: "Truck Model"
+    title: "Truck Model"
   - image_path: /assets/images/dash.png
-    excerpt: "Dashboard and Truck Models"
+    title: "Dashboard and Truck Models"
   - image_path: /assets/images/girl.png
-    excerpt: "Mirage Girl Model"
+    title: "Mirage Girl Model"
   - image_path: /assets/images/tree1.png
-    excerpt: "Pine Model"
+    title: "Pine Model"
   - image_path: /assets/images/tree2.png
-    excerpt: "Tree Model"
+    title: "Tree Model"
   - image_path: /assets/images/deer.png
-    excerpt: "Deer Model"
+    title: "Deer Model"
 tags:
   - godot
   - game
