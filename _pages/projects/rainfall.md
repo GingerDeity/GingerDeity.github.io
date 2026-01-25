@@ -10,9 +10,9 @@ header:
   overlay_image: /assets/images/rainfall_back.png
 feature_row:
   - image_path: /assets/images/rainfall_items_plain.png
-    excerpt: "Items without background"
+    title: "Items without background"
   - image_path: /assets/images/rainfall_items_full.png
-    excerpt: "Items with early-version background"
+    title: "Items with early-version background"
 tags:
   - game
   - godot
