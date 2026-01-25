@@ -8,13 +8,6 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/gobblerfestfront.png
 excerpt: Graphic designs, presentations, and more from my time serving GDC at VT!
-feature_row:
-  - image_path: /assets/images/gobblerfestfront.png
-    excerpt: "GobblerFest Flyer Front"
-  - image_path: /assets/images/gobblerfestback.png
-    excerpt: "GobblerFest Flyer Back"
-  - image_path: /assets/images/springjam.png
-    excerpt: "Spring Jam Flyer"
 ---
 
 # Character Design Meeting
@@ -33,9 +26,10 @@ This is from a meeting I hosted where I taught the audience of the Game Developm
 # Promotional Materials
 These are promotional flyers I made for the Game Development Club at Virginia Tech, inspired by early Atari and Commodore 64 commercials and a general 70s aesthetic. One was made for a school event called GobblerFest, and the other was for our Spring Game Jam of 2025. I'm impressed by how well they came out, considering I've never done any graphic design before!
 
-{% include feature_row %}
+<iframe src="/assets/files/GobblerFestFlyerF24.pdf" width="100%" height="600px"></iframe>
+<img src="/assets/images/springjam.png" alt="Stickers" style="max-width: 600px; display: block; margin: 0 auto;">
 
 # Indie Game Showcase
 <iframe src="/assets/files/IndieGameShowcaseBrochure.pdf" width="100%" height="600px"></iframe>
 ## stickers
-## flyers
+<img src="/assets/images/indiegameshowstickers.png" alt="Stickers" style="max-width: 600px; display: block; margin: 0 auto;">
