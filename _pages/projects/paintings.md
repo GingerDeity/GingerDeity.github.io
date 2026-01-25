@@ -56,3 +56,10 @@ Upon my first viewing of the Studio Ghibli film Howl's Moving Castle, what stuck
 # Gallery
 These are the rest of my works, most of which can be found on my Instagram also. 
 {% include feature_row %}
+
+<p class="page__taxonomy">
+  <strong><i class="fas fa-tags"></i> Tags:</strong>
+  {% for tag in page.tags %}
+    <span class="page__taxonomy-item">{{ tag }}</span>
+  {% endfor %}
+</p>
