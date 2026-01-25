@@ -19,6 +19,12 @@ tags:
   - krita
 ---
 
+<p class="project-tags">
+  {% for tag in page.tags %}
+    <span class="tag">{{ tag }}</span>
+  {% endfor %}
+</p>
+
 <video autoplay muted loop playsinline controls width="100%">
   <source src="/assets/videos/rainfall.mp4" type="video/mp4">
 </video>
