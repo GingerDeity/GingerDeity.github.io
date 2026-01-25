@@ -13,6 +13,10 @@ feature_row:
     excerpt: "Items without background"
   - image_path: /assets/images/rainfall_items_full.png
     excerpt: "Items with early-version background"
+tags:
+  - game
+  - godot
+  - krita
 ---
 
 <video autoplay muted loop playsinline controls width="100%">
