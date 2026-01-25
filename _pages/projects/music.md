@@ -7,6 +7,9 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/music.jpg
 excerpt: My favorite songs I've made, all with a common theme of simple ideas expanded upon, enjoy!
+tags:
+  - music
+  - piano
 ---
 
 # Planet's Hope
@@ -28,3 +31,10 @@ This song is the only one here that is not an original composition by me, rather
 <audio controls>
   <source src="/assets/audio/fairy.mp4" type="audio/mp4">
 </audio>
+
+<p class="page__taxonomy">
+  <strong><i class="fas fa-tags"></i> Tags:</strong>
+  {% for tag in page.tags %}
+    <span class="page__taxonomy-item">{{ tag }}</span>
+  {% endfor %}
+</p>
