@@ -7,7 +7,7 @@ highlight: false
 permalink: /projects/yychr_hack/
 header:
   overlay_filter: "0.5"
-  overlay_image: /assets/images/rainfall_back.png
+  overlay_image: /assets/images/smb_hack_mario.png
 feature_row:
   - image_path: /assets/images/smb_hack_mario.png
     title: "Mario - Normal Palette"
