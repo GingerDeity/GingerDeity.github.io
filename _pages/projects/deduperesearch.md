@@ -1,13 +1,14 @@
 ---
 title: Deduplication Research
 permalink: /projects/deduperesearch
+excerpt: My research work from Virginia Tech, focusing on memory deduplication
 tags:
   - coding
   - java
   - python
 ---
 
-test
+deduplication research
 
 <p class="page__taxonomy">
   <strong><i class="fas fa-tags"></i> Tags:</strong>
