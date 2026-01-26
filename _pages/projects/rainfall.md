@@ -7,11 +7,11 @@ highlight: true
 permalink: /projects/rainfall/
 header:
   overlay_filter: "0.5"
-  overlay_image: /assets/images/rainfall_back.png
+  overlay_image: /assets/images/Rainfall/rainfall_header.png
 feature_row:
-  - image_path: /assets/images/rainfall_items_plain.png
+  - image_path: /assets/images/Rainfall/rainfall_items_plain.png
     title: "Items without background"
-  - image_path: /assets/images/rainfall_items_full.png
+  - image_path: /assets/images/Rainfall/rainfall_items_full.png
     title: "Items with early-version background"
 tags:
   - game
@@ -34,7 +34,7 @@ It reminded me of the simple joy of poking at raindrops on the car windows durin
 ## Development
 ### Art
 This was my first time using the *Krita* software and adding finished art to a game, thus I opted to go for a simpler cartoony style that I felt I could draw and still look nice. Turns out that I liked drawing! When initially remastering the original game, there were still no plans for items or an inventory, but once I designed the final background as shown, I knew I had to go the extra mile. 
-![Game Background](/assets/images/rainfall_background.png)
+![Game Background](/assets/images/Rainfall/rainfall_background.png)
 
 To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items. I wisely chose to make development even faster by using mostly basic shapes and clones of items.
 

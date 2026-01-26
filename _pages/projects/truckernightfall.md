@@ -6,19 +6,19 @@ excerpt: It's late at night, and you've still got so long to go...
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/trucker-night-fall-title.png
+  overlay_image: /assets/images/TruckerNightFall/trucker_nightfall_header.png
 feature_row:
-  - image_path: /assets/images/truck.png
+  - image_path: /assets/images/TruckerNightFall/truck.png
     title: "Truck Model"
-  - image_path: /assets/images/dash.png
+  - image_path: /assets/images/TruckerNightFall/dash.png
     title: "Dashboard and Truck Models"
-  - image_path: /assets/images/girl.png
+  - image_path: /assets/images/TruckerNightFall/girl.png
     title: "Mirage Girl Model"
-  - image_path: /assets/images/tree1.png
+  - image_path: /assets/images/TruckerNightFall/tree1.png
     title: "Pine Model"
-  - image_path: /assets/images/tree2.png
+  - image_path: /assets/images/TruckerNightFall/tree2.png
     title: "Tree Model"
-  - image_path: /assets/images/deer.png
+  - image_path: /assets/images/TruckerNightFall/deer.png
     title: "Deer Model"
 tags:
   - godot
@@ -31,7 +31,7 @@ This game resulted from a school game jam that lasted 48 hours in the Spring sem
 
 The gameplay itself is very simple, and more story-driven. We wanted to tell the tale of an insomniac truck driver, whose demanding schedule is pushing himself further away from the family he is trying so desperately to provide for. All you're trying to do is stay on the road as the controls get slippier and more obstacles such as other trucks and potholes emerge. What the game truly excels in is the atmosphere, aiming for a low-poly PS1/N64 era art style that, when combined with the CRT effect, creates an environment dripping with personality. Unfortunately, my video software was having difficulty recording gameplay, so I've attached a screenshot below:
 
-![Alt text](/assets/images/trucker-night-fall-title.png)
+![Alt text](/assets/images/TruckerNightFall/trucker_nightfall_header.png)
 
 Upon replaying this game, one aspect I was proud of was not only my modeling but the density of the story and the voice acting of my fellow developers. I found myself able to relate to the character's struggle of balancing his work with his family, and the internal journey he went through was similar to one I had been through before.
 

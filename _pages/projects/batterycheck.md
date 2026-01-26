@@ -7,13 +7,13 @@ permalink: /projects/batterychecker/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/batteryheader.png
+  overlay_image: /assets/images/BatteryChecker/batteryheader.png
 tags:
   - python
   - gui
 ---
 
-<img src="/assets/images/batterylevel.png" style="max-width: 600px; display: block; margin: 0 auto;">
+<img src="/assets/images/BatteryChecker/batterylevel.png" style="max-width: 600px; display: block; margin: 0 auto;">
 
 ## What It Is
 This is a battery percentage reporter, my first project/prototype using Python GUI library *tkinter*! It will pop open a window that can't be closed when your battery is below 20% or above 80%. If your battery is below 20% and not plugged in, it'll tell you to plug in the charger. Alternatively, if it's plugged in and higher than 80% charge, you'll be told to unplug the charger. If your battery is between 20-80%, the window will tell you the battery level is optimal, and the window can be closed.
@@ -37,7 +37,7 @@ I tried going through my computer's BIOS, but couldn't find any easy way to tell
 While this is a very basic prototype, it feels like it already has the basic skeleton for a sellable product! Automating the installation process and adding better GUI and customization options is all it would take for this to be something I'd feel confident showing off on Windows Marketplace. It's a very basic project, but has good potential, and is definitely something I may come back to
 
 ## Try for yourself
-Download [here](/assets/downloads/battery.zip) to try the prototype, make sure you have the necessary Python dependencies for libraries such as psutils and tkinter. You'll need to place the unzipped folder in your Windows startup folder (found by hitting Win+R and typing shell:startup)
+Download [here](/assets/downloads/BatteryChecker.zip) to try the prototype, make sure you have the necessary Python dependencies for libraries such as psutils and tkinter. You'll need to place the unzipped folder in your Windows startup folder (found by hitting Win+R and typing shell:startup)
 
 <p class="page__taxonomy">
   <strong><i class="fas fa-tags"></i> Tags:</strong>

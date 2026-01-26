@@ -5,7 +5,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/music.jpg
+  overlay_image: /assets/images/music_header.jpg
 excerpt: My favorite songs I've made, all with a common theme of simple ideas expanded upon, enjoy!
 tags:
   - music

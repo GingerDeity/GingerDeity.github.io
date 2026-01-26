@@ -6,7 +6,7 @@ highlight: true
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/gobblerfestfront.png
+  overlay_image: /assets/images/GDC/gobblerfestfront.png
 excerpt: Graphic designs, presentations, and more from my time serving GDC at VT!
 tags:
   - graphic design
@@ -41,14 +41,14 @@ If you'd like to try and do this class yourself, feel free to download the templ
 These are promotional flyers I made for the Game Development Club at Virginia Tech, inspired by early Atari and Commodore 64 commercials and a general 70s aesthetic. One was made for a school event called GobblerFest, and the other was for our Spring Game Jam of 2025. I'm impressed by how well they came out, considering I've never done any graphic design before!
 
 <iframe src="/assets/files/GobblerFestFlyerF24.pdf" width="100%" height="600px"></iframe>
-<img src="/assets/images/springjam.png" alt="Stickers" style="max-width: 600px; display: block; margin: 0 auto;">
+<img src="/assets/images/GDC/springjam.png" alt="Stickers" style="max-width: 600px; display: block; margin: 0 auto;">
 
 # Indie Game Showcase
 These are the brochure and stickers I created for the Indie Game Showcase our club managed, with both made in a graphic design program called *Canva*. I'm especially proud of the compact nature of the brochure, and the simple but effective sticker design! I definitely consider these to be evolutions from my previous flyers, which were done in PowerPoint.
 
 <iframe src="/assets/files/IndieGameShowcaseBrochure.pdf" width="100%" height="600px"></iframe>
 
-<img src="/assets/images/indiegameshowstickers.png" alt="Stickers" style="max-width: 600px; display: block; margin: 0 auto;">
+<img src="/assets/images/GDC/indiegameshowstickers.png" alt="Stickers" style="max-width: 600px; display: block; margin: 0 auto;">
 
 <p class="page__taxonomy">
   <strong><i class="fas fa-tags"></i> Tags:</strong>

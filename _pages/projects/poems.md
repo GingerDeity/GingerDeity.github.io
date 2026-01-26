@@ -5,7 +5,7 @@ layout: splash
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/vt.png
+  overlay_image: /assets/images/poems_header.png
 excerpt: Written works from one of my favorite classes at Virginia Tech!
 tags: 
   - writing
