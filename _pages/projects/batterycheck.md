@@ -4,6 +4,10 @@ layout: splash
 classes: wide
 excerpt: A prototype window that pops up based on your battery level
 permalink: /projects/batterychecker/
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/batterylevel.png
 tags:
   - python
   - gui
