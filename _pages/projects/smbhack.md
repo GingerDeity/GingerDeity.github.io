@@ -3,17 +3,16 @@ title: SMB RomHack
 layout: splash
 classes: wide
 excerpt: It's the classic Mario you remember!... almost
-highlight: false
-permalink: /projects/yychr_hack/
+permalink: /projects/smb_romhack/
 header:
   overlay_filter: "0.5"
-  overlay_image: /assets/images/smb_hack_mario.png
+  overlay_image: /assets/images/SMB_Hack/smb_hack_mario.png
 feature_row:
-  - image_path: /assets/images/smb_hack_mario.png
+  - image_path: /assets/images/SMB_Hack/smb_hack_mario.png
     title: "Mario - Normal Palette"
-  - image_path: /assets/images/smb_hack_jumpman.png
+  - image_path: /assets/images/SMB_Hack/smb_hack_jumpman.png
     title: "Mario - Donkey Kong Palette"
-  - image_path: /assets/images/smb_hack_luigi.png
+  - image_path: /assets/images/SMB_Hack/smb_hack_luigi.png
     title: "Mario - Luigi Palette"
 tags:
   - game

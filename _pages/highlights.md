@@ -2,6 +2,10 @@
 layout: archive
 title: Highlights
 permalink: /highlights/
+header:
+  overlay_color: "#000"
+  overlay_filter: "0.5"
+  overlay_image: /assets/images/highlights_header.png
 ---
 
 <div class="highlights-grid">
