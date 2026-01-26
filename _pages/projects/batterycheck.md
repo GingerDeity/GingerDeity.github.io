@@ -7,7 +7,7 @@ permalink: /projects/batterychecker/
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
-  overlay_image: /assets/images/batterylevel.png
+  overlay_image: /assets/images/batteryheader.png
 tags:
   - python
   - gui
@@ -16,45 +16,28 @@ tags:
 <img src="/assets/images/batterylevel.png" style="max-width: 600px; display: block; margin: 0 auto;">
 
 ## What It Is
-Rainfall is a cozy physics-based collectathon where you trade the raindrops you click on for nostalgic items that you arrange on a windowsill. There are no real objectives, no timers or rush, just you, the rain, and your memories.
+This is a battery percentage reporter, my first project/prototype using Python GUI library *tkinter*! It will pop open a window that can't be closed when your battery is below 20% or above 80%. If your battery is below 20% and not plugged in, it'll tell you to plug in the charger. Alternatively, if it's plugged in and higher than 80% charge, you'll be told to unplug the charger. If your battery is between 20-80%, the window will tell you the battery level is optimal, and the window can be closed.
 
 ## Why I Made This
-The original vision for this game came from a game-jam that only lasted 90 minutes. There were no win-or-lose conditions; all you could do was click raindrops that would fall in front of a simple city backdrop with the song "Beneath the Mask" by Shoji Meguro playing in the background. My last semester at Virignia Tech, I wanted to apply for their Creative Technology master's program, but had very little time to actually create a portfolio. So, when looking for projects that could best show my personality and interests and wouldn't take more than a few weeks, that game seemed perfect for a remaster.
+While game development is my passion, I thought it would be good to continue learning the basics of software development, and decided it was time to brush up on my Python skills. I chose this as a basic starting project because I have a bad habit of leaving my charger in my computer overnight. Over time, this overloads the battery capacitors, making it die faster and faster over time. I was leaving the charger in so often, I was getting to the point of having to replace my laptop battery once a year!
 
-It reminded me of the simple joy of poking at raindrops on the car windows during road trips, which then had me reminiscing about the knick-knacks I would collect on my childhood bedroom windowsill. I expanded on the original concept, adding the items and an inventory system. This game is meant to replicate that very personal experience, so all the items you can collect are things I either had or wanted to have on my windowsill when I was younger.
+I tried going through my computer's BIOS, but couldn't find any easy way to tell it to stop charging once it got to 80% charge. Thus, I decided to make a very light application that could help remind me! The moment the charge exceeds 80%, it pops up, and I know to unplug the charger.
 
-## Development
-### Art
-This was my first time using the *Krita* software and adding finished art to a game, thus I opted to go for a simpler cartoony style that I felt I could draw and still look nice. Turns out that I liked drawing! When initially remastering the original game, there were still no plans for items or an inventory, but once I designed the final background as shown, I knew I had to go the extra mile. 
-![Game Background](/assets/images/rainfall_background.png)
+## What Works
+- The efficiency, both in time and memory, is excellent. The filesize itself is only 1.48KB, and we only use an infinite-loop!
+- While simple, the window popping up is quite effective and has already saved me from leaving the charger in dozens of times
 
-To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items. I wisely chose to make development even faster by using mostly basic shapes and clones of items.
+## What I'd Do Differently
+- If I were to continue the project, I'd allow the user to determine when the window should pop up. There'd be options for minimum and maximum battery charges, and a timer for when to continue popping up after its initial pop-up.
+- Make the GUI more pleasing. This is a very basic template, so I'd add some nice colors and fonts
+- Make the installation of the necessary Python libraries and placement into the startup folder automatic
+- Research 'trickle charge' options, and let the user decide when it should start trickle-charging and to what target percent
 
-### Audio
-Considering how dependent on the atmosphere this game would be, it was crucial to get the sound design as high-quality as possible. I used a web-based version of Audacity, called Wavacity, and synthesized together sounds for dropping items, the swaying of the tree, and, of course, the rain.
-
-Each sound you hear above is a sound effect from the game, and each one layers at least 2 different sounds together. I tried to have the sounds follow a 'story' of buildup, climax, then resolution. As an example, the "raindrop collected" sound is actually the sound of two raindrops, but the first one is far quieter and acts as the set-up for the second raindrop sound, the climax. Then there's a slight echo as a resolution to the sound. This mentality of telling a story was very helpful in creating satisfying sounds. 
-
-All sounds (except the music box) were done using free sound libraries, and some sounds are made using noises you might not expect. For example, the rainfall actually uses the sound of frying bacon!
-
-## Final Thoughts
-
-### What Works
-- The atmosphere was exactly what I wanted, and I found myself and other players repeatedly stopping just to take the sounds in
-- The gameplay of creating your own windowsill was incredibly fun, and it was engaging to see the different types of windowsills people were making!
-- The controls and UI were intuitive, and no one seemed to have any questions
-
-### What I'd Do Differently
-- I didn't use different audio buses for the different types of sounds, which made fine-tuning between the background and sound effects more difficult
-- Considering how easy it was for items to collide and make sounds when you had dozens on screen, adding a sound-effects manager to make sure that sounds also didn't stack in unpleasant ways would've been a good addition
-- One bug was that when an item fell, I had it spawn back at the top... but I forgot to cap its speed! It would get faster and harder for players to grab it!
-- If the item went too far to the side of the screen when you went to get it, you'd activate the inventory or shop, and it would cover the item you're trying to grab!
-
-### Takeaway
-What I'm most proud of in this game is the atmosphere, as the sound design and art (all synthesized and drawn by me) coalesce beautifully into one scene. It almost feels like it's not your eyes gazing out the window, but your past self's. This is a game that you can play for a few moments on your computer, go back to work, and the atmosphere will be right there waiting for you. One thing I believe games can do is to create safe spaces for their users, and I think this game accomplished that brilliantly. However, as beautiful as it is, the above mentioned problems with functionality do hold it back. Adding in a sound-effects manager and fixing the physics bugs would have made it perfect. Overall, it's a project I'm very proud of, but certainly not flawless.
+## Final Takeaway
+While this is a very basic prototype, it feels like it already has the basic skeleton for a sellable product! Automating the installation process and adding better GUI and customization options is all it would take for this to be something I'd feel confident showing off on Windows Marketplace. It's a very basic project, but has good potential, and is definitely something I may come back to
 
 ## Try for yourself
-Download [here](/assets/downloads/battery.zip) to try the prototype, make sure you have the necessary Python dependencies for libraries such as psutils and tkinter
+Download [here](/assets/downloads/battery.zip) to try the prototype, make sure you have the necessary Python dependencies for libraries such as psutils and tkinter. You'll need to place the unzipped folder in your Windows startup folder (found by hitting Win+R and typing shell:startup)
 
 <p class="page__taxonomy">
   <strong><i class="fas fa-tags"></i> Tags:</strong>
