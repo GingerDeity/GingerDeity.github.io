@@ -27,11 +27,11 @@ Here's the [link to GitHub and download](https://github.com/anniexena/THE-GAME)
 - **Annie Xenakis**: Programmed dialogue writing and system, and the quest system
 - **Peyton Ludwig**: Drew the environmental assets such as tiles, houses, etc.
 - **Mollie Mero**: Created sprites for townspeople, player, dog, animals, etc.
-- **Me (Atreyu)**: Implemented gameplay loop and environmetal feedback systems
+- **Me (Atreyu)**: Implemented gameplay loop and environmental feedback systems
 
 ## My Role & Contributions
 My Role was primarily as a backend programmer, and was mainly responsible for:
-- Programming the overall game loop of tree-cutting, seed-planting, and hosue-repairing 
+- Programming the overall game loop of tree-cutting, seed-planting, and house-repairing 
 - Programming environmental feedback (tree and house lifespans, forest population density, day/night cycle)
 - Implementing dog's ability to scout and dig up seeds
 - Performed and added the background music
@@ -39,7 +39,7 @@ My Role was primarily as a backend programmer, and was mainly responsible for:
 
 ## Development
 ### Milestone 1 (Week 4)
-This was our first presentation we had to give as a group, and was moreso expected to be a proposal of our goals, rather than any concrete prototype. As you can tell from our slides below, we had very high ambitions... too high in the end. We were essentially hoping for a 2D platformer with RPG-story and peppered randomly generated puzzle minigames, and maybe some combat, all done in the span of < 4 months.
+This was our first presentation we had to give as a group, and was more expected to be a proposal of our goals, rather than any concrete prototype. As you can tell from our slides below, we had very high ambitions... too high in the end. We were essentially hoping for a 2D platformer with RPG-story and peppered randomly generated puzzle minigames, and maybe some combat, all done in the span of < 4 months.
 
 <iframe src="/assets/files/ForestsPeaceMilestone1.pdf" width="100%" height="600px"></iframe>
 
@@ -49,7 +49,7 @@ By this point, we had thankfully abandoned most of the fluff and started narrowi
 <iframe src="/assets/files/ForestsPeaceMilestone2.pdf" width="100%" height="600px"></iframe>
 
 ### Milestone 3 (Week 14)
-Between this and Milestone 2, there was what some would call a *mild mental breakdown* on my end. The stress of my job, other classes, the club, and the unfinished state of this project was completely wrecking me. After much pleading to the team, I was able to convinve them to drop the minigames and RPG elements and go for a *much* simpler vision. You would go out, chop trees, plant seeds, and try to keep a balance between your village and the forest. Most of the art was finished by Mollie and Peyton at this point, and Annie did an excellent job adapting the dialogue and quests to the new vision. I feverishly panic-coded nearly the entire new game-loop is the span of a week if I recall correctly. 
+Between this and Milestone 2, there was what some would call a *mild mental breakdown* on my end. The stress of my job, other classes, the club, and the unfinished state of this project was completely wrecking me. After much pleading to the team, I was able to convince them to drop the minigames and RPG elements and go for a *much* simpler vision. You would go out, chop trees, plant seeds, and try to keep a balance between your village and the forest. Most of the art was finished by Mollie and Peyton at this point, and Annie did an excellent job adapting the dialogue and quests to the new vision. I feverishly panic-coded nearly the entire new game-loop in the span of a week if I recall correctly. 
 
 <iframe src="/assets/files/ForestsPeaceMilestone3.pdf" width="100%" height="600px"></iframe>
 
