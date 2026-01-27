@@ -8,16 +8,18 @@ header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/Blender101/plissken_header.png
 feature_row:
-  - image_path: /assets/images/Blender101/rainfall_items_plain.png
-    title: "Items without background"
-  - image_path: /assets/images/Blender101/rainfall_items_full.png
-    title: "Items with early-version background"
+  - image_path: /assets/images/Blender101/plissken_body.png
+    title: "Early"
+  - image_path: /assets/images/Blender101/plissken_hair.png
+    title: "Mid"
+  - image_path: /assets/images/Blender101/plissken_final.png
+    title: "Final"
 tags:
   - blender
 ---
 
 <video autoplay muted loop playsinline controls width="100%">
-  <source src="/assets/videos/rainfall.mp4" type="video/mp4">
+  <source src="/assets/videos/plissken_final.mp4" type="video/mp4">
 </video>
 
 ## What It Is
@@ -37,42 +39,6 @@ To stay true to the personal goals of this game, I elected to base all the items
 
 {% include feature_row %}
 
-### Audio
-Considering how dependent on the atmosphere this game would be, it was crucial to get the sound design as high-quality as possible. I used a web-based version of Audacity, called Wavacity, and synthesized together sounds for dropping items, the swaying of the tree, and, of course, the rain.
-
-<div class="feature__wrapper text-center">
-  <div class="feature__item">
-    <h5>Rain Ambience</h5>
-    <audio controls>
-      <source src="/assets/audio/rainfall.wav" type="audio/wav">
-    </audio>
-  </div>
-
-  <div class="feature__item">
-    <h5>Clicky Items</h5>
-    <audio controls>
-      <source src="/assets/audio/lego_minecraft_drop.wav" type="audio/wav">
-    </audio>
-  </div>
-
-  <div class="feature__item">
-    <h5>Rock Items</h5>
-    <audio controls>
-      <source src="/assets/audio/rock_drop.wav" type="audio/wav">
-    </audio>
-  </div>
-
-  <div class="feature__item">
-    <h5>Click Raindrop</h5>
-    <audio controls>
-      <source src="/assets/audio/drop_touch.wav" type="audio/wav">
-    </audio>
-  </div>
-</div>
-
-Each sound you hear above is a sound effect from the game, and each one layers at least 2 different sounds together. I tried to have the sounds follow a 'story' of buildup, climax, then resolution. As an example, the "raindrop collected" sound is actually the sound of two raindrops, but the first one is far quieter and acts as the set-up for the second raindrop sound, the climax. Then there's a slight echo as a resolution to the sound. This mentality of telling a story was very helpful in creating satisfying sounds. 
-
-All sounds (except the music box) were done using free sound libraries, and some sounds are made using noises you might not expect. For example, the rainfall actually uses the sound of frying bacon!
 
 ## Final Thoughts
 
