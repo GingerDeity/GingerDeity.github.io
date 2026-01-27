@@ -7,6 +7,13 @@ permalink: /projects/tetris-romhack/
 header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/TetrisNES/tetris_nes_header.png
+feature_row:
+  - image_path: /assets/images/TetrisNES/tetris_nes.png
+    title: "NES Rotations"
+  - image_path: /assets/images/TetrisNES/tetris_srs.png
+    title: "SRS Rotations"
+  - image_path: /assets/images/TetrisNES/tetris_nes_ideal.png
+    title: "Ideal Rotations"
 tags:
   - romhack
   - ghidra
@@ -35,12 +42,15 @@ My role ended up being a few things:
 ## Why We Made This
 Tetris for the NES is one of the most famous versions of Tetris ever played (and is still played competitively!), but is missing modern mechanics such as wall-kicks and certain rotation states for the I, S, and Z blocks. This was actually Chase's project, and I just on as a collaborator since we both wanted to further enhance our disassembling skills and both had an affinity for retro games.
 
+My focus was on adding the new rotation states. Below is a visual of the original NES rotations, the modern SRS rotations, and what we hoped to achieve:
+{% include feature_row %}
+
 ## Development
 Development was slow, as I had many other projects I was dealing with, but I was able to get us a development environment where we could access and change the code of the game as needed. We used *Ghidra* to view and translate the decompilation of the ROM, and a *VSCode* environment to actually change the data of the ROM. We actually made a quick PowerPoint to document our progress, and difficulties, shown below
 
 <iframe src="/assets/files/TetrisNES.pdf" width="100%" height="600px"></iframe>
 
-You can find this powerpoint and a document-version of this in our [Github](https://github.com/GingerDeity/TetrisNES)
+You can find this powerpoint and a document-version of this in our [Github](https://github.com/GingerDeity/TetrisNES). The best part of this project was finding the graphics table, and having everything suddenly click for how Tetris pieces were displayed (slides 17-20). That was a huge eureka moment, and something I'm still proud of discovering mostly on my own.
 
 ## Final Thoughts
 
