@@ -24,7 +24,7 @@ This was the very first meeting I ever did for the club, focused entirely on cha
 # Sound Design Meeting
 This is from the next meeting I hosted, where me and my friend Serena taught the basics of sound design! We took an originally silent Zelda animation by user Txikimorin on the r/zelda subreddit, showed the class how to use Wavacity, and gave them a zip file containing sound effects, the template video, and more! This was the example final product I made before the meeting, using free sound libraries and Wavacity.
 <video controls width="100%">
-  <source src="/assets/videos/SoundDesignFinal.mp4" type="video/mp4">
+  <source src="/assets/videos/sound_design_final.mp4" type="video/mp4">
 </video>
 
 Below are the slideshows I made for this meeting, one detailing the basics of sound design (which I also had to teach myself), and the next being the help slideshow for Wavacity.
