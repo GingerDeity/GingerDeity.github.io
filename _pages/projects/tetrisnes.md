@@ -42,7 +42,7 @@ My role ended up being a few things:
 ## Why We Made This
 Tetris for the NES is one of the most famous versions of Tetris ever played (and is still played competitively!), but is missing modern mechanics such as wall-kicks and certain rotation states for the I, S, and Z blocks. This was actually Chase's project, and I just on as a collaborator since we both wanted to further enhance our disassembling skills and both had an affinity for retro games.
 
-My focus was on adding the new rotation states. Below is a visual of the original NES rotations, the modern SRS rotations, and what we hoped to achieve:
+My focus was on adding the new rotation states. You can actually see I achieved this for the S and Z blocks in the video above if you know what to look for! Below is a visual of the original NES rotations, the modern SRS rotations, and what we hoped to achieve:
 {% include feature_row %}
 
 ## Development
