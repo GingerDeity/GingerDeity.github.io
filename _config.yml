@@ -30,7 +30,9 @@ markdown: kramdown # converts MD to HTML
 
 # Outputting
 permalink: /:categories/:title/ # makes post URLs, uses the category and title from each post
-paginate: 8 # amount of posts to show per page
+paginate: 
+  enabled: true
+  per_page: 1 # amount of posts to show per page
 paginate_path: /blog/page:num/ # 
 timezone: America/Indiana/Indianapolis # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 excerpt_separator: "<!--more-->"
@@ -38,13 +40,14 @@ excerpt_separator: "<!--more-->"
 collections:
   projects:
     output: true
-    permalink: /projects/:name
+    permalink: /projects/:name/
 
 include:
   - _pages
 
 # Plugins (previously gems:)
 plugins:
+  - jekyll-paginate-v2
   - jekyll-paginate
   - jekyll-sitemap
   - jekyll-gist
