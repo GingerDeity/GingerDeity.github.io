@@ -7,7 +7,7 @@ paginate: true
 
 <div class="project-grid">
   {% for project in site.pages %}
-    {% if project.path contains 'projects/' and project.path != 'projects/index.md' %}
+    {% if project.path contains 'projects/' and project.path != 'projects/index.html' %}
       <blockquote class="project-blockquote">
         <a href="{{ project.url }}">
           <h3>{{ project.title }}</h3>
