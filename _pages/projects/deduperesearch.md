@@ -14,7 +14,7 @@ tags:
   - java
 ---
 
-<iframe src="https://docs.google.com/spreadsheets/d/1m8LdZ9sh9Wtp2wsJ-Po7mrIoNZj0NklGgjM3LyAAClE/edit?usp=sharing&amp;headers=false"></iframe>
+<iframe src="https://docs.google.com/spreadsheets/d/1m8LdZ9sh9Wtp2wsJ-Po7mrIoNZj0NklGgjM3LyAAClE/edit?usp=sharing&amp;headers=false" width="100%" height="600px"></iframe>
 
 [DIAGRAM/VISUALIZATION - Show memory deduplication concept visually]
 
