@@ -14,9 +14,7 @@ tags:
   - java
 ---
 
-<video autoplay muted loop playsinline controls width="100%">
-  <source src="/assets/videos/forests_peace.mp4" type="video/mp4">
-</video>
+<iframe src="https://docs.google.com/spreadsheets/d/1m8LdZ9sh9Wtp2wsJ-Po7mrIoNZj0NklGgjM3LyAAClE/edit?usp=sharing&amp;headers=false"></iframe>
 
 [DIAGRAM/VISUALIZATION - Show memory deduplication concept visually]
 
