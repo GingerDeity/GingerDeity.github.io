@@ -2,21 +2,19 @@
 title: Memory Deduplication Research
 layout: splash
 classes: wide
-excerpt: My research work from Virginia Tech, focusing on memory deduplication
+excerpt: My research work from Virginia Tech, focusing on memory deduplication!
 highlight: true
 permalink: /projects/deduplication/
 header:
   overlay_filter: "0.5"
-  overlay_image: /assets/images/DedupeResearch/dedupe_research_header.png
+  overlay_image: /assets/images/DedupeResearch/dedupe_research_header.jpg
 tags:
   - python
   - C
   - java
 ---
 
-<iframe src="https://docs.google.com/spreadsheets/d/1m8LdZ9sh9Wtp2wsJ-Po7mrIoNZj0NklGgjM3LyAAClE/edit?usp=sharing" width="100%" height="600px"></iframe>
-
-[DIAGRAM/VISUALIZATION - Show memory deduplication concept visually]
+[![Dedupe Visual](/assets/images/DedupeResearch/dedupe_visual.gif)](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows-server%2Fstorage%2Fdata-deduplication%2Funderstand&ved=0CBUQjRxqFwoTCMDHt5n7sZIDFQAAAAAdAAAAABAH&opi=89978449)
 
 "Memory Deduplication Research"
 Reducing server costs and improving system efficiency through 
@@ -189,6 +187,12 @@ This research has direct applications in:
 
 The tools and methodologies developed are available for other researchers 
 and engineers working on memory optimization problems.
+
+<iframe src="https://docs.google.com/spreadsheets/d/1m8LdZ9sh9Wtp2wsJ-Po7mrIoNZj0NklGgjM3LyAAClE/edit?usp=sharing" width="100%" height="600px"></iframe>
+
+[Click here for static-window](https://docs.google.com/spreadsheets/d/10YiPpQu5xCe1mOKyjHtZhARlAaL6NL-FgBguw9WpsNA/edit?usp=sharing)
+[Click here for KSM](https://docs.google.com/spreadsheets/d/1m8LdZ9sh9Wtp2wsJ-Po7mrIoNZj0NklGgjM3LyAAClE/edit?usp=sharing)
+
 
 <p class="page__taxonomy">
   <strong><i class="fas fa-tags"></i> Tags:</strong>
