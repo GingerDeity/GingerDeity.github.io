@@ -21,8 +21,7 @@ Hello, as you may have guessed, my name is Atreyu McLewin, and this is my websit
       <blockquote class="project-blockquote">
         <a href="{{ project.url }}">
           <h3>
-           {{ project.title }}
-           {{ project.date | date: "%B %d, %Y" }}
+           {{ project.title }} - {{ project.date | date: "%B %d, %Y" }}
           </h3>
         </a>
         <p>{{ project.excerpt }}</p>
