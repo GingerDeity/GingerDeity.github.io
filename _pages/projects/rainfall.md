@@ -28,7 +28,7 @@ tags:
 Rainfall is a cozy physics-based collectathon where you trade the raindrops you click on for nostalgic items that you arrange on a windowsill. There are no real objectives, no timers or rush, just you, the rain, and your memories.
 
 ## Why I Made This
-The original vision for this game came from a game-jam that only lasted 90 minutes. There were no win-or-lose conditions; all you could do was click raindrops that would fall in front of a simple city backdrop with the song "Beneath the Mask" by Shoji Meguro playing in the background. My last semester at Virginia Tech, I wanted to apply for their Creative Technology master's program, but had very little time to actually create a portfolio. So, when looking for projects that could best show my personality and interests and wouldn't take more than a few weeks, that game seemed perfect for a remaster.
+The original vision for this game came from a game jam that only lasted 90 minutes. There were no win-or-lose conditions; all you could do was click raindrops that would fall in front of a simple city backdrop with the song "Beneath the Mask" by Shoji Meguro playing in the background. In my last semester at Virginia Tech, I wanted to apply for their Creative Technology master's program, but I had very little time to actually create a portfolio. So, when looking for projects that could best show my personality and interests and wouldn't take more than a few weeks, that game seemed perfect for a remaster.
 
 It reminded me of the simple joy of poking at raindrops on the car windows during road trips, which then had me reminiscing about the knick-knacks I would collect on my childhood bedroom windowsill. I expanded on the original concept, adding the items and an inventory system. This game is meant to replicate that very personal experience, so all the items you can collect are things I either had or wanted to have on my windowsill when I was younger.
 
@@ -81,7 +81,7 @@ Considering how dependent on the atmosphere this game would be, it was crucial t
 
 Each sound you hear above is a sound effect from the game, and each one layers at least 2 different sounds together. I tried to have the sounds follow a 'story' of buildup, climax, then resolution. As an example, the "raindrop collected" sound is actually the sound of two raindrops, but the first one is far quieter and acts as the set-up for the second raindrop sound, the climax. Then there's a slight echo as a resolution to the sound. This mentality of telling a story was very helpful in creating satisfying sounds. 
 
-All sounds (except the music box) were done using free sound libraries, and some sounds are made using noises you might not expect. For example, the rainfall actually uses the sound of frying bacon!
+All sounds (except the music box) were done using free sound libraries, and some sounds were made using noises you might not expect. For example, the rainfall actually uses the sound of frying bacon!
 
 ## Final Thoughts
 
@@ -97,7 +97,7 @@ All sounds (except the music box) were done using free sound libraries, and some
 - If the item went too far to the side of the screen when you went to get it, you'd activate the inventory or shop, and it would cover the item you're trying to grab!
 
 ### Takeaway
-What I'm most proud of in this game is the atmosphere, as the sound design and art (all synthesized and drawn by me) coalesce beautifully into one scene. It almost feels like it's not your eyes gazing out the window, but your past self's. This is a game that you can play for a few moments on your computer, go back to work, and the atmosphere will be right there waiting for you. One thing I believe games can do is to create safe spaces for their users, and I think this game accomplished that brilliantly. However, as beautiful as it is, the above mentioned problems with functionality do hold it back. Adding in a sound-effects manager and fixing the physics bugs would have made it perfect. Overall, it's a project I'm very proud of, but certainly not flawless.
+What I'm most proud of in this game is the atmosphere, as the sound design and art (all synthesized and drawn by me) coalesce beautifully into one scene. It almost feels like it's not your eyes gazing out the window, but your past self's. This is a game that you can play for a few moments on your computer, go back to work, and the atmosphere will be right there waiting for you. One thing I believe games can do is to create safe spaces for their users, and I think this game accomplished that brilliantly. However, as beautiful as it is, the above-mentioned problems with functionality hold it back. Adding in a sound-effects manager and fixing the physics bugs would have made it perfect. Overall, it's a project I'm very proud of, but certainly not flawless.
 
 ## Play for yourself
 Simply click [here](https://atreyum.itch.io/rainfall), download the .exe file, and it should work on any Windows machine!
