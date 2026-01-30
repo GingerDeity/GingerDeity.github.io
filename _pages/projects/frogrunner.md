@@ -7,13 +7,13 @@ highlight: true
 permalink: /projects/frogrunner/
 header:
   overlay_filter: "0.5"
-  overlay_image: /assets/images/FrogRunner/frog_early.png
+  overlay_image: /assets/images/FrogRunner/frog_hats.webp
 feature_row:
-  - image_path: /assets/images/FrogRunner/frog_progress.png
+  - image_path: /assets/images/FrogRunner/frog_progression.webp
     title: "Early Frog Sketches"
   - image_path: /assets/images/FrogRunner/frog_early.png
     title: "Palette Experimentation"
-  - image_path: /assets/images/FrogRunner/frog_hats.png
+  - image_path: /assets/images/FrogRunner/frog_hats.webp
     title: "Hat Accessories"
 tags:
   - game
@@ -26,7 +26,7 @@ tags:
 </video>
 
 ## What It Is
-FrogRunner is a 3D physics-based platformer and speedrunning game where you play as a simple frog in a giant mechanical suit, using your tongue to fluidy grapple and zoom all around levels! Me, my friend Colm, and my brother Anduin are currently still developing a prototype that will have you grappling and zooming all over a level, breaking all the targets as fast as possible.
+FrogRunner is a 3D physics-based platformer and speedrunning game where you play as a simple frog in a giant mechanical suit, using your tongue to fluidly grapple and zoom all around levels! Me, my friend Colm, and my brother Anduin are currently still developing a prototype that will have you grappling and zooming all over a level, breaking all the targets as fast as possible.
 
 ## Why I Made This
 Me and Colm have been wanting to break into making 3D games and also continue practicing Godot for a long time now, so he came up with the idea of a grappling platformer/first-person-shooter game! I liked the idea of a silly frog using his tongue to grapple around, but thought the jumping motion of a frog would be more tricky to code and not as fun to play. So, I juxtaposed the tiny frog with a heavy-mech bipedal suit!
@@ -96,10 +96,10 @@ While I do dabble in the arts, I'm still learning how to properly do character d
 
 {% include feature_row %}
 
-We originally envisioned the frog as being lanky, as seen in the first image, but later opted for him to be more of a ball-shape to better contrast the mech-suit. Before those first digital drawings, the first sketches were handdrawn, and showed a much more humanoid suit that was akin to Samus' Varia Suit. I wanted the body to be more 'amphibious', and these digitla drawings show that we made the hands and legs more frog-like, and added lily-pad shaped fins to the shoulders.
+We originally envisioned the frog as being lanky, as seen in the first image, but later opted for him to be more of a ball-shape to better contrast the mech-suit. Before those first digital drawings, the first sketches were handdrawn, and showed a much more humanoid suit that was akin to Samus' Varia Suit. I wanted the body to be more 'amphibious', and these digital drawings show that we made the hands and legs more frog-like, and added lily-pad shaped fins to the shoulders.
 
 <p style="text-align:center;">
-  <img src="/assets/images/FrogRunner/frog_lineup.png" style="max-width:600px;">
+  <img src="/assets/images/FrogRunner/frog_lineup.webp" style="max-width:600px;">
 </p>
 
 This lineup image is our current design! We'll be trying to make 3D models and animations of the character soon, and we're also going to be adding a jetpack to the back of the suit that will allow for double-jumps. To keep with the frog-motifs, we'll be making the jetpack resemble a fly, with the gas/flames shooting out from wings!
