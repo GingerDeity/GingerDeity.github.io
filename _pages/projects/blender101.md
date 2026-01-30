@@ -2,7 +2,6 @@
 title: Blender 101
 layout: splash
 classes: wide
-date: 2026-01-03
 excerpt: My reintroduction to Blender, via PS1 style graphics!
 permalink: /projects/blender-101/
 header:

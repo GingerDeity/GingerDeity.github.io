@@ -2,7 +2,6 @@
 title: Trucker Night Fall
 permalink: /projects/truckernightfall/
 layout: splash
-date: 2024-10-15
 excerpt: It's late at night, and you've still got so long to go...
 header:
   overlay_color: "#000"
