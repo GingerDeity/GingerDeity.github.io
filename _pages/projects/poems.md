@@ -2,7 +2,7 @@
 title: Poems
 permalink: /projects/poems
 layout: splash
-date: 2024-12-08
+date: 2024-12-08T15:34:30-04:00
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

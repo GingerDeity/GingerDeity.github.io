@@ -2,7 +2,7 @@
 title: SMB RomHack
 layout: splash
 classes: wide
-date: 2026-01-16
+date: 2026-01-16T15:34:30-04:00
 excerpt: It's the classic Mario you remember!... almost
 permalink: /projects/smb_romhack/
 header:

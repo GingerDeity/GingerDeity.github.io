@@ -2,7 +2,7 @@
 title: Rainfall
 layout: splash
 classes: wide
-date: 2025-02-20
+date: 2025-02-20T15:34:30-04:00
 excerpt: It's your childhood windowsill, and it's raining outside...
 highlight: true
 weight: 4
