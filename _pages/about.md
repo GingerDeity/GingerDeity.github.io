@@ -20,7 +20,7 @@ For me, creating and sharing is what makes me come alive, and through it I hope 
 ## My Mantra  
 ***To master discipline over passion, to always strive to be both student and teacher, to take part in life's Neverending Story***
 
-I graduated from college in Spring '25, after which I took a much needed 'half gap-year' to reflect on the last 10 years of burnout. I found myself getting easily locked into cycles of endless grinding away at projects, followed by minimal rest and constant exhaustion. This type of "don't stop" attitude might be good for the occasional project, but for life and a career?... definitely not. 
+I graduated from college in Spring '25, after which I took a much-needed 'half gap-year' to reflect on the last 10 years of burnout. I found myself getting easily locked into cycles of endless grinding away at projects, followed by minimal rest and constant exhaustion. This type of "don't stop" attitude might be good for the occasional project, but for life and a career?... definitely not. 
 
 This is one of the biggest reasons for this website: it's intended as a way to help me learn *discipline over passion*, to remember how to run on fuel, not flames. It's here to show my journey as I continually become both a better *student and teacher* for myself and others. It's here to remind me to always enjoy this *neverending process*, and to encourage sharing that.
 
