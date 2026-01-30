@@ -2,7 +2,7 @@
 title: Simplicity's Waves
 permalink: /projects/music/
 layout: splash
-date: 2025-20-02T15:34:30-04:00
+date: 2025-20-02
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

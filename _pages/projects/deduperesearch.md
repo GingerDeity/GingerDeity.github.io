@@ -2,7 +2,7 @@
 title: Memory Deduplication Research
 layout: splash
 classes: wide
-date: 2025-06-13T15:34:30-04:00
+date: 2025-06-13
 excerpt: My research work from Virginia Tech, focusing on memory deduplication!
 highlight: true
 weight: 2

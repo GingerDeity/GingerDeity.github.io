@@ -2,7 +2,7 @@
 title: Battery Level Checker
 layout: splash
 classes: wide
-date: 2025-08-15T15:34:30-04:00
+date: 2025-08-15
 excerpt: A prototype window that pops up based on your battery level
 permalink: /projects/batterychecker/
 header:
