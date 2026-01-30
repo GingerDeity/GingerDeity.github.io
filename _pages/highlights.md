@@ -9,7 +9,7 @@ header:
 ---
 
 {% assign highlighted = site.pages | where: "highlight", true %}
-{% assign highlighted_projects = highlighted | sort: "weight" | reverse %}
+{% assign highlighted_projects = highlighted | sort: "weight" %}
 
 <div class="highlights-grid">
   {% for project in highlighted_projects %}

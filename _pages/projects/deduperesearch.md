@@ -9,6 +9,11 @@ permalink: /projects/deduplication/
 header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/DedupeResearch/dedupe_research_header.jpg
+feature_row:
+  - image_path: /assets/images/DedupeResearch/dedupe_research_1VM.png
+    title: "1 VM Workload"
+  - image_path: /assets/images/DedupeResearch/dedupe_research_2VMs.png
+    title: "2 VMs Workload"
 tags:
   - python
   - C
@@ -27,7 +32,8 @@ This project shows my research work from 2023-2025 while I was employed at Virgi
 While researching, I was tasked with answering the question: ***How much memory can we theoretically save via deduplication, and which systems benefit most?***
 
 ## My Role
-- Role: Undergraduate Research Assistant | Advisor: Xun Jian
+- Role: Undergraduate Research Assistant
+- Advisor: Xun Jian
 - Institution: Virginia Tech Department of Computer Science
 - Duration: Sep 2023 - July 2025 (22 months)
 - Tools: Java, C, Python, Bash, Linux KSM
@@ -98,6 +104,9 @@ I also extensively worked with Linux's built-in Kernel Same-Page Merging to vali
 - Created automated capture scripts for KSM statistics and process memory usage
 - Outlined procedures for real-time monitoring across multiple VM instances
 - Outlining and creating the VM hierarchy and VMs using Qemu
+
+Getting the hierarchy right was tricky, but paid off. Here's what an average workstation would look like:
+{% include feature row %}
 
 ## Key Findings
 <iframe src="https://docs.google.com/spreadsheets/d/10YiPpQu5xCe1mOKyjHtZhARlAaL6NL-FgBguw9WpsNA/edit?usp=sharing" width="100%" height="600px"></iframe>
