@@ -1,9 +1,10 @@
 ---
-title: FrogRunner
+title: Frog Runner
 layout: splash
 classes: wide
 excerpt: The cutest, dullest frog imaginable is given an all-powerful space suit to travel with!
 highlight: true
+weight: 1
 permalink: /projects/frogrunner/
 header:
   overlay_filter: "0.5"
@@ -26,7 +27,7 @@ tags:
 </video>
 
 ## What It Is
-FrogRunner is a 3D physics-based platformer and speedrunning game where you play as a simple frog in a giant mechanical suit, using your tongue to fluidly grapple and zoom all around levels! Me, my friend Colm, and my brother Anduin are currently still developing a prototype that will have you grappling and zooming all over a level, breaking all the targets as fast as possible.
+FrogRunner is a 3D physics-based platformer and speedrunning game where you play as a simple frog in a giant mechanical suit, using your tongue to fluidly grapple and zoom all around levels! Me, my friend Colm, and my brother [Anduin](https://www.instagram.com/twigpen/) are currently still developing a prototype that will have you grappling and zooming all over a level, breaking all the targets as fast as possible.
 
 ## Why I Made This
 Me and Colm have been wanting to break into making 3D games and also continue practicing Godot for a long time now, so he came up with the idea of a grappling platformer/first-person-shooter game! I liked the idea of a silly frog using his tongue to grapple around, but thought the jumping motion of a frog would be more tricky to code and not as fun to play. So, I juxtaposed the tiny frog with a heavy-mech bipedal suit!
@@ -34,8 +35,12 @@ Me and Colm have been wanting to break into making 3D games and also continue pr
 I'm incredibly proud of how the project is coming so far. I haven't had time for personal projects in years, and being able to spend so much time essentially building my own engine within the Godot engine has been incredible. We've built so many systems and procedures that will make designing an entire demo or game much easier! It feels great letting myself program how I've always wanted to, and getting to do it with friends is a lot of fun as well.
 
 ## How to Play
+
+### Download
 While we have yet to release an official demo, if you'd like to play a current prototype build, download and extract the zip file [here](/assets/downloads/FrogRunner.zip)
 
+
+### Controls
 - Basic Movement
   * `WASD`: Move  
   * `SPACE`: Jump  
@@ -88,7 +93,6 @@ I also added dev-keys to reload the level (`F1`), toggle the dev-camera (`F2`), 
 <video autoplay muted loop playsinline controls width="100%">
   <source src="/assets/videos/frogrunner_devkeys.mp4" type="video/mp4">
 </video>
-
 
 ## Development
 ### Art

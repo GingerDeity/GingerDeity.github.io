@@ -8,9 +8,12 @@ header:
   overlay_image: /assets/images/highlights_header.png
 ---
 
+{% assign highlighted = site.pages | where: "highlight", true %}
+{% assign highlighted_projects = highlighted | sort: "weight" | reverse %}
+
 <div class="highlights-grid">
-  {% for project in site.pages %}
-    {% if project.path contains 'projects/' and project.highlight %}
+  {% for project in highlighted_projects %}
+    {% if project.path contains 'projects/' %}
       <blockquote class="project-blockquote">
         <a href="{{ project.url }}">
           <h3>{{ project.title }}</h3>

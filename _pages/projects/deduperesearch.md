@@ -4,6 +4,7 @@ layout: splash
 classes: wide
 excerpt: My research work from Virginia Tech, focusing on memory deduplication!
 highlight: true
+weight: 2
 permalink: /projects/deduplication/
 header:
   overlay_filter: "0.5"
@@ -14,185 +15,132 @@ tags:
   - java
 ---
 
-[![Dedupe Visual](/assets/images/DedupeResearch/dedupe_visual.gif)](https://www.google.com/url?sa=t&source=web&rct=j&url=https%3A%2F%2Flearn.microsoft.com%2Fen-us%2Fwindows-server%2Fstorage%2Fdata-deduplication%2Funderstand&ved=0CBUQjRxqFwoTCMDHt5n7sZIDFQAAAAAdAAAAABAH&opi=89978449)
+<p style="text-align:center;">
+  <img src="/assets/images/DedupeResearch/dedupe_visual.gif" style="max-width:600px;">
+</p>
 
-"Memory Deduplication Research"
-Reducing server costs and improving system efficiency through 
-intelligent memory optimization
+## What It Is and Why It Matters
+Memory is currently one of the biggest bottlenecks in modern computing. Servers, cloud systems, and LLMs all use massive amounts of memory, and trends indicate that this memory usage will only continue to grow. RAM prices as of 2026 are skyrocketing, and it's clear that we need new ways to better store and manage memory. One way we could do this? Memory deduplication, as in finding duplicate pieces of memory and storing only one copy of them, as the gif made by Microsoft shows.
 
-Role: Undergraduate Researcher | Advisor: [Professor Name]
-Institution: Virginia Tech CS Department
-Duration: Sep 2023 - July 2025 (22 months)
-Tools: Java, C, Python, Bash, Linux KSM
+This project shows my research work from 2023-2025 while I was employed at Virginia Tech, and shows the theoretical benefits of memory deduplication for a variety of applications, including OSs, VMs, LLM weights, etc. This project contains both my [GitHub of tools](https://github.com/GingerDeity/DedupeResearch) and results spreadsheets both for my [static-window deduplication code](https://docs.google.com/spreadsheets/d/10YiPpQu5xCe1mOKyjHtZhARlAaL6NL-FgBguw9WpsNA/edit?usp=sharing) and Linux's [KSM deduplication code](https://docs.google.com/spreadsheets/d/1m8LdZ9sh9Wtp2wsJ-Po7mrIoNZj0NklGgjM3LyAAClE/edit?usp=sharing)
 
-[View Research Repository] [Download Tools]
+While researching, I was tasked with answering the question: ***How much memory can we theoretically save via deduplication, and which systems benefit most?***
 
-## Why This Matters
+## My Role
+- Role: Undergraduate Research Assistant | Advisor: Xun Jian
+- Institution: Virginia Tech Department of Computer Science
+- Duration: Sep 2023 - July 2025 (22 months)
+- Tools: Java, C, Python, Bash, Linux KSM
 
-Modern servers and cloud systems waste enormous amounts of memory storing 
-identical data multiple times. When you run Docker containers, virtual 
-machines, or AI models, they often load the same libraries, datasets, or 
-system files—but each keeps its own copy in memory.
-
-This wastes expensive RAM and limits how many services can run on a single 
-server. For cloud providers like AWS or data centers running hundreds of 
-VMs, even a 10-20% reduction in memory usage translates to millions of 
-dollars in hardware savings.
-
-**The Research Question:**  
-How much memory can we actually save by identifying and eliminating these 
-duplicates? And which systems benefit most from deduplication?
+## Key Contributions
+- Created suite of analysis tools for memory deduplication research
+- Conglomerated research results into easy-to-read spreadsheets
+- Explored which types of systems theoretically benefit most from deduplication
+- Quantified memory savings potential across several workloads
+- Built reproducible experimental framework for future research
 
 ## Research Approach
+The general approach was really just scattershot, answering questions and coming up with new fields and areas worth exploring based on weekly meetings. Thanks to this flexibility, we were able to tackle a lot of areas all at once! For my static-window deduplication code, we used primarily binary memory dumps, and KSM had us using live processes. Here's a brief layout of some of the systems we researched:
 
-Over 22 months, I developed tools and conducted experiments to measure 
-memory deduplication potential across different computing systems:
-
-**Systems Analyzed:**
-- Operating systems (Linux VMs)
-- AI/ML models and neural networks
+### Systems Analyzed
+- Operating systems (Ubuntu, Debian, CentOS)
+- LLMs, AI models, neural networks
 - Docker containers
-- Multiple running applications
+- Basic C, Java, Python programs
+- Benchmarking tools (SPECJBB, Spark-Bench, Renaissance)
 
-**Methods:**
-- Built custom static-window deduplication analyzer in Java
-- Worked with Linux's Kernel Same-Page Merging (KSM) system
-- Tested across various window sizes (64B, 4KB) and configurations
-- Analyzed memory patterns, shared library usage, and data locality
+And here is a brief overview of some of my favorite tools that I developed:
 
-**Key Contributions:**
-- Created suite of analysis tools for memory deduplication research
-- Identified which types of systems benefit most from deduplication
-- Quantified memory savings potential across different workloads
-- Built reproducible experimental framework for future research
+### Tools Developed
+- Custom static-window deduplication analyzer (Java)
+   * Allows for custom window size
+   * Outputs special file containing detailed results for all matches found
+- A memory deduplication mapper (Java)
+   * My favorite, it takes in certain files and tells you where duplicates were found (heap, stack, anonymous, etc)
+- Memory dump formatter (C)
+   * Outputs file that contains only data, no headers, etc
+- Memory dump analyzer that tells how far apart memory duplicates are (Python)
+- Scripts for using Linux's KSM system (Bash)
+- Zeroing out memory (C)
+   * Zeroes out memory in processes such as VMs to ensure we only find duplicates of used code
+- KSM Capturers (Bash)
+   * Outputs KSM results inside VM from host's perspective
+
+Once again, for anyone interested in doing their own deduplication experiments, click [here](https://github.com/GingerDeity/DedupeResearch) for the full GitHub repo!
 
 ## Technical Implementation
 
-### Static Window Deduplication (DedupeCheck.java)
-I engineered a custom memory analyzer that scans binary memory dumps and 
-identifies duplicate "windows" of data at configurable granularities.
+### Static Window Deduplication
+My custom memory analyzer scans binary memory dumps and identifies duplicate "windows" of data at a configurable window size. The step-by-step includes:
+1. Take memory dumps from running processes
+2. Divide memory into fixed-size windows (such as 4KB pages)
+3. Hash each window and identify duplicates
+4. Calculates deduplication ratios
 
-**How it works:**
-1. Takes memory dumps from running processes
-2. Divides memory into fixed-size windows (e.g., 4KB pages)
-3. Hashes each window and identifies duplicates
-4. Calculates deduplication ratios and data locality patterns
-
-**Technical challenges solved:**
+### Technical challenges solved
 - Stripped ELF metadata from memory dumps for accurate analysis
 - Implemented efficient hash-based comparison for large datasets
-- Built mapping system to trace duplicates back to memory regions 
-  (heap, stack, shared libraries)
+- Built mapping system to trace duplicates back to memory regions (heap, stack, shared libraries)
 - Designed verbose mode for detailed match analysis
 
-### KSM Integration & VM Testing
-Worked with Linux's built-in Kernel Same-Page Merging to validate 
-findings against real-world OS-level deduplication.
+## KSM Deduplication
+I also extensively worked with Linux's built-in Kernel Same-Page Merging to validate findings against OS-level deduplication. We typically experimented across several VMs, and used the following setup:
 
-**Experimental setup:**
-- Hierarchical VM architecture (Level-1 hosts running KSM, Level-2 VMs 
-  being monitored)
-- Automated capture scripts for KSM statistics and process memory usage
-- Real-time monitoring across multiple VM instances
+### Experimental setup
+- Have hierarchical VM structure (Level-1 hosts running KSM, Level-2 VMs being monitored)
+- Get Level-2 VMs zeroes out, have Level-1 VM's KSM ready
+- Start Level-1 KSM, start processes of interest in Level-2 VMs
+- Run as long as needed to obtain data
 
-[Code sample showing core deduplication logic or results parsing]
+### Technical challenges solved
+- Creating scripts and correct initialization settings for KSM
+- Zeroing out VM memory so only in-use memory is being checked for duplicates
+- Created automated capture scripts for KSM statistics and process memory usage
+- Outlined procedures for real-time monitoring across multiple VM instances
+- Outlining and creating the VM hierarchy and VMs using Qemu
 
 ## Key Findings
+<iframe src="https://docs.google.com/spreadsheets/d/10YiPpQu5xCe1mOKyjHtZhARlAaL6NL-FgBguw9WpsNA/edit?usp=sharing" width="100%" height="600px"></iframe>
 
-[VISUALIZATION - Graph or table of results]
+This is one of two spreadsheets I made, this one detailing results for my own deduplication code! While deduplication may not be needed for every field, here are some of the highlights each spreadsheet. 
 
-**Best Candidates for Deduplication:**
-- Docker containers: [X%] memory reduction potential
-- Multiple VM instances: [Y%] memory reduction potential
-- AI model serving: [Z%] memory reduction potential
+### My Static-Window
+Each entry shows what percent of memory dumps from processes were comprised of duplicate data.
+- LLAMA LLM 3.8 Processes: 
+   * 2 processes: 47.13%
+   * 3 processes: 62.84%
+- Image Recognition Neural Networks:
+   * 2 images: 34.50%
+- Empty Ubuntu VMs, no zeroing: 
+   * 1 VM: 25.38%
+   * 2 VMs: 59.84%
+- Empty CentOS VMs, no zeroing: 
+   * 2 VMs: 24.92%
 
-**Memory Pattern Insights:**
-- [Specific finding about where duplicates occur]
-- [Insight about shared libraries vs. application data]
-- [Discovery about deduplication effectiveness at different granularities]
-
-**Practical Implications:**
-[What this means for real systems - e.g., "A data center running 100 VMs 
-could reduce memory requirements by XGB, saving $Y annually in hardware costs"]
-
-## Research Evolution
-
-### Phase 1: Tool Development (Sep 2023 - Jan 2024)
-Built initial static window analyzer, tackled ELF format parsing, 
-established baseline methodology
-
-**Key challenge:** Memory dumps contained metadata that offset actual data. 
-Solution: Wrote ELF parser to strip headers and preserve memory layout.
-
-### Phase 2: Experimentation (Jan 2024 - Oct 2024)
-Expanded analysis to VMs, Docker containers, neural networks. Integrated 
-with KSM for validation.
-
-**Key challenge:** Coordinating experiments across multiple VM levels with 
-real-time monitoring. Solution: Built tmux-based capture system with 
-automated SSH connections and synchronized logging.
-
-### Phase 3: Analysis & Documentation (Oct 2024 - July 2025)
-Deep analysis of memory patterns, created comprehensive tooling 
-documentation, drew conclusions about optimal use cases.
-
-[Screenshot of your tmux setup showing multiple VMs being monitored]
-
-## Tools & Code
-
-I developed a complete research toolkit, now open-sourced for other 
-researchers:
-
-**Core Analysis Tools:**
-- DedupeCheck.java: Static window deduplication analyzer
-- MapMatches.java: Memory region mapping and duplicate source tracking
-- BlockAnalyze.py: Spatial locality analysis for duplicate data
-- VM automation suite: Scripts for coordinated KSM experiments
-
-**Research Reproducibility:**
-- Detailed documentation for each tool
-- Example workflows and sample datasets
-- Pre-configured VM template for deduplication experiments
-
-[View Full Repository →]
+### Linux KSM
+Each entry shows what percent of VM memory were comprised of duplicate data when running certain processes.
+- LLAMA LLM 3.8 Processes: 
+   * 2 processes: 43.81%
+- Image Recognition Neural Networks:
+   * 2 images: 37.37%
+- Empty Ubuntu VMs, no zeroing: 
+   * 2 VMs: 14.33%
+   * 2 VMs: 33.95%
 
 ## What I Learned
-
-**Technical Skills:**
-- Low-level systems programming (C, Java for binary analysis)
-- Linux kernel features and memory management
+### Technical Skills
+- Low-level systems programming (C, Java, Python for binary analysis)
+- Linux kernel features and memory management (Bash, VMs)
 - Large-scale experiment design and data collection
 - Scientific computing and statistical analysis
 
-**Research Skills:**
+### Research Skills
 - Designing reproducible experiments
 - Technical documentation and knowledge transfer
 - Long-term project management over 22 months
-- Presenting complex technical findings to varied audiences
 
-**If This Research Continued:**
-- Investigate dynamic deduplication (real-time merging)
-- Test on modern containerized AI workloads (LLM serving)
-- Develop adaptive deduplication that learns optimal window sizes
-- Study security implications of memory sharing across processes
-
-## Real-World Applications
-
-This research has direct applications in:
-
-**Cloud Computing:** Reducing memory overhead in multi-tenant environments
-**AI Infrastructure:** Optimizing memory for large-scale model deployment  
-**Edge Computing:** Maximizing efficiency on resource-constrained devices
-**Data Centers:** Lowering operational costs through better resource utilization
-
-The tools and methodologies developed are available for other researchers 
-and engineers working on memory optimization problems.
-
-<iframe src="https://docs.google.com/spreadsheets/d/1m8LdZ9sh9Wtp2wsJ-Po7mrIoNZj0NklGgjM3LyAAClE/edit?usp=sharing" width="100%" height="600px"></iframe>
-
-[Click here for static-window](https://docs.google.com/spreadsheets/d/10YiPpQu5xCe1mOKyjHtZhARlAaL6NL-FgBguw9WpsNA/edit?usp=sharing)
-[Click here for KSM](https://docs.google.com/spreadsheets/d/1m8LdZ9sh9Wtp2wsJ-Po7mrIoNZj0NklGgjM3LyAAClE/edit?usp=sharing)
-
+## Final Thoughts
+This research took up a significant part of my education, and I'm forever grateful to professor Xun Jian for his grace, kindness, and excitement towards my projects! Research is a very difficult field, you'll often find yourself trying to answer questions that you're not sure can even be answered. Sometimes, you don't even know if you're asking the right question, and it's easy to find yourself suddenly in over your head. But, if you're willing to stick with it, you're willing to always experiment and be patient, then you're bound to find amazing things. This research is one of my greatest prides, and I'm awestruck by how much I did looking back now.
 
 <p class="page__taxonomy">
   <strong><i class="fas fa-tags"></i> Tags:</strong>

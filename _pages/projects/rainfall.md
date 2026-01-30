@@ -4,6 +4,7 @@ layout: splash
 classes: wide
 excerpt: It's your childhood windowsill, and it's raining outside...
 highlight: true
+weight: 4
 permalink: /projects/rainfall/
 header:
   overlay_filter: "0.5"
@@ -34,7 +35,10 @@ It reminded me of the simple joy of poking at raindrops on the car windows durin
 ## Development
 ### Art
 This was my first time using the *Krita* software and adding finished art to a game, thus I opted to go for a simpler cartoony style that I felt I could draw and still look nice. Turns out that I liked drawing! When initially remastering the original game, there were still no plans for items or an inventory, but once I designed the final background as shown, I knew I had to go the extra mile. 
-![Game Background](/assets/images/Rainfall/rainfall_background.png)
+
+<p style="text-align:center;">
+  <img src="/assets/images/Rainfall/rainfall_background.png" style="max-width:600px;">
+</p>
 
 To stay true to the personal goals of this game, I elected to base all the items on things I would've actually owned, and ended up drawing 26 different items. I wisely chose to make development even faster by using mostly basic shapes and clones of items.
 

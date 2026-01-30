@@ -4,6 +4,7 @@ layout: splash
 classes: wide
 excerpt: A choice-driven sustainability game where every action shapes the world
 highlight: true
+weight: 3
 permalink: /projects/forests-peace/
 header:
   overlay_filter: "0.5"
