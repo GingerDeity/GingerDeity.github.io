@@ -9,11 +9,6 @@ permalink: /projects/deduplication/
 header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/DedupeResearch/dedupe_research_header.jpg
-feature_row:
-  - image_path: /assets/images/DedupeResearch/dedupe_research_1VM.png
-    title: "1 VM Workload"
-  - image_path: /assets/images/DedupeResearch/dedupe_research_2VMs.png
-    title: "2 VMs Workload"
 tags:
   - python
   - C
@@ -105,8 +100,11 @@ I also extensively worked with Linux's built-in Kernel Same-Page Merging to vali
 - Outlined procedures for real-time monitoring across multiple VM instances
 - Outlining and creating the VM hierarchy and VMs using Qemu
 
-Getting the hierarchy right was tricky, but paid off. Here's what an average workstation would look like:
-{% include feature_row %}
+Getting the hierarchy right was tricky, but paid off. Here's what an average workstation would look like for 2 VMs:
+
+<p style="text-align:center;">
+  <img src="/assets/images/DedupeResearch/dedupe_research_2VMs.png" style="max-width:600px;">
+</p>
 
 ## Key Findings
 <iframe src="https://docs.google.com/spreadsheets/d/10YiPpQu5xCe1mOKyjHtZhARlAaL6NL-FgBguw9WpsNA/edit?usp=sharing" width="100%" height="600px"></iframe>
