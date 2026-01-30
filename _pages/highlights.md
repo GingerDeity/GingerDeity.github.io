@@ -16,7 +16,7 @@ header:
     {% if project.path contains 'projects/' %}
       <blockquote class="project-blockquote">
         <a href="{{ project.url }}">
-          <h3>{{ project.title }}</h3>
+          <h3>{{ project.title }} - {{ project.date | date: "%B %d, %Y" }}</h3>
         </a>
         <p>{{ project.excerpt }}</p>
         <p class="page__taxonomy">

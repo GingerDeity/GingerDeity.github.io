@@ -2,6 +2,7 @@
 title: Frog Runner
 layout: splash
 classes: wide
+date: 2026-01-30
 excerpt: The cutest, dullest frog imaginable is given an all-powerful space suit to travel with!
 highlight: true
 weight: 1

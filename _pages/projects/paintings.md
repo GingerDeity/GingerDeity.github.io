@@ -2,6 +2,7 @@
 title: "Acrylic Kalleidoscope of Moments"
 permalink: /projects/paintings/
 layout: splash
+date: 2021-03-11
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"

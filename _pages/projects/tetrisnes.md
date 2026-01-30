@@ -2,6 +2,7 @@
 title: Tetris NES Romhack
 layout: splash
 classes: wide
+date: 2025-05-05
 excerpt: A romhack of Tetris for the NES, attempting to bring modern Tetris mechanics 
 permalink: /projects/tetris-romhack/
 header:

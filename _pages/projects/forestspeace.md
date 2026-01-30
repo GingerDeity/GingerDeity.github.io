@@ -2,6 +2,7 @@
 title: Forest's Peace
 layout: splash
 classes: wide
+date: 2025-05-12
 excerpt: A choice-driven sustainability game where every action shapes the world
 highlight: true
 weight: 3
