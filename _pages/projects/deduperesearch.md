@@ -106,7 +106,7 @@ I also extensively worked with Linux's built-in Kernel Same-Page Merging to vali
 - Outlining and creating the VM hierarchy and VMs using Qemu
 
 Getting the hierarchy right was tricky, but paid off. Here's what an average workstation would look like:
-{% include feature row %}
+{% include feature_row %}
 
 ## Key Findings
 <iframe src="https://docs.google.com/spreadsheets/d/10YiPpQu5xCe1mOKyjHtZhARlAaL6NL-FgBguw9WpsNA/edit?usp=sharing" width="100%" height="600px"></iframe>
