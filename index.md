@@ -9,7 +9,7 @@ header:
   overlay_image: /assets/images/HomePageBanner.png
 ---
 
-Hello, as you may have guessed, my name is Atreyu McLewin, and this is my website! I am a graduate of Virginia Tech who majored in Computer Science and minored in Mathematics. My passion is all things game development, software development, and interactive media! Please enjoy the website and projects, and also consider checking out my [LinkedIn](https://www.linkedin.com/in/atreyu-mclewin-a48b5528a/) and [GitHub](https://github.com/GingerDeity)!
+Hello, as you may have guessed, my name is Atreyu McLewin, and this is my Antholog! What is an Antholog? It's what I've been calling this portfolio and blog website, a combinatino of the words 'anthology' and 'log' (I'm hoping it catches on). I am a graduate of Virginia Tech who majored in Computer Science and minored in Mathematics. My passion is all things game development, software development, and interactive media! Please enjoy the website and projects, and also consider checking out my [LinkedIn](https://www.linkedin.com/in/atreyu-mclewin-a48b5528a/) and [GitHub](https://github.com/GingerDeity)!
 
 ## Portfolio Highlights
 {% assign highlighted = site.pages | where: "highlight", true %}
