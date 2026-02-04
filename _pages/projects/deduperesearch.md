@@ -34,11 +34,11 @@ While researching, I was tasked with answering the question: ***How much memory 
 - Tools: Java, C, Python, Bash, Linux KSM
 
 ## Key Contributions
-- Created suite of analysis tools for memory deduplication research
+- Created a suite of analysis tools for memory deduplication research
 - Conglomerated research results into easy-to-read spreadsheets
 - Explored which types of systems theoretically benefit most from deduplication
 - Quantified memory savings potential across several workloads
-- Built reproducible experimental framework for future research
+- Built a reproducible experimental framework for future research
 
 ## Research Approach
 The general approach was really just scattershot, answering questions and coming up with new fields and areas worth exploring based on weekly meetings. Thanks to this flexibility, we were able to tackle a lot of areas all at once! For my static-window deduplication code, we used primarily binary memory dumps, and KSM had us using live processes. Here's a brief layout of some of the systems we researched:
@@ -55,7 +55,7 @@ And here is a brief overview of some of my favorite tools that I developed:
 ### Tools Developed
 - Custom static-window deduplication analyzer (Java)
    * Allows for custom window size
-   * Outputs special file containing detailed results for all matches found
+   * Outputs a special file containing detailed results for all matches found
 - A memory deduplication mapper (Java)
    * My favorite, it takes in certain files and tells you where duplicates were found (heap, stack, anonymous, etc)
 - Memory dump formatter (C)
@@ -65,7 +65,7 @@ And here is a brief overview of some of my favorite tools that I developed:
 - Zeroing out memory (C)
    * Zeroes out memory in processes such as VMs to ensure we only find duplicates of used code
 - KSM Capturers (Bash)
-   * Outputs KSM results inside VM from host's perspective
+   * Outputs KSM results inside the VM from the host's perspective
 
 Once again, for anyone interested in doing their own deduplication experiments, click [here](https://github.com/GingerDeity/DedupeResearch) for the full GitHub repo!
 
@@ -81,11 +81,11 @@ My custom memory analyzer scans binary memory dumps and identifies duplicate "wi
 ### Technical challenges solved
 - Stripped ELF metadata from memory dumps for accurate analysis
 - Implemented efficient hash-based comparison for large datasets
-- Built mapping system to trace duplicates back to memory regions (heap, stack, shared libraries)
+- Built a mapping system to trace duplicates back to memory regions (heap, stack, shared libraries)
 - Designed verbose mode for detailed match analysis
 
 ## KSM Deduplication
-I also extensively worked with Linux's built-in Kernel Same-Page Merging to validate findings against OS-level deduplication. We typically experimented across several VMs, and used the following setup:
+I also extensively worked with Linux's built-in Kernel Same-Page Merging to validate findings against OS-level deduplication. We typically experimented across several VMs and used the following setup:
 
 ### Experimental setup
 - Have hierarchical VM structure (Level-1 hosts running KSM, Level-2 VMs being monitored)
@@ -100,7 +100,7 @@ I also extensively worked with Linux's built-in Kernel Same-Page Merging to vali
 - Outlined procedures for real-time monitoring across multiple VM instances
 - Outlining and creating the VM hierarchy and VMs using Qemu
 
-Getting the hierarchy right was tricky, but paid off. Here's what an average workstation would look like for 2 VMs:
+Getting the hierarchy right was tricky, but it paid off. Here's what an average workstation would look like for 2 VMs:
 
 <p style="text-align:center;">
   <img src="/assets/images/DedupeResearch/dedupe_research_2VMs.png" style="max-width:600px;">
@@ -109,7 +109,7 @@ Getting the hierarchy right was tricky, but paid off. Here's what an average wor
 ## Key Findings
 <iframe src="https://docs.google.com/spreadsheets/d/10YiPpQu5xCe1mOKyjHtZhARlAaL6NL-FgBguw9WpsNA/edit?usp=sharing" width="100%" height="600px"></iframe>
 
-This is one of two spreadsheets I made, this one detailing results for my own deduplication code! While deduplication may not be needed for every field, here are some of the highlights each spreadsheet. 
+This is one of two spreadsheets I made, this one detailing results for my own deduplication code! While deduplication may not be needed for every field, here are some of the highlights of each spreadsheet. 
 
 ### My Static-Window
 Each entry shows what percent of memory dumps from processes were comprised of duplicate data.
@@ -125,7 +125,7 @@ Each entry shows what percent of memory dumps from processes were comprised of d
    * 2 VMs: 24.92%
 
 ### Linux KSM
-Each entry shows what percent of VM memory were comprised of duplicate data when running certain processes.
+Each entry shows what percent of VM memory was comprised of duplicate data when running certain processes.
 - LLAMA LLM 3.8 Processes: 
    * 2 processes: 43.81%
 - Image Recognition Neural Networks:
@@ -147,7 +147,7 @@ Each entry shows what percent of VM memory were comprised of duplicate data when
 - Long-term project management over 22 months
 
 ## Final Thoughts
-This research took up a significant part of my education, and I'm forever grateful to professor Xun Jian for his grace, kindness, and excitement towards my projects! Research is a very difficult field, you'll often find yourself trying to answer questions that you're not sure can even be answered. Sometimes, you don't even know if you're asking the right question, and it's easy to find yourself suddenly in over your head. But, if you're willing to stick with it, you're willing to always experiment and be patient, then you're bound to find amazing things. This research is one of my greatest prides, and I'm awestruck by how much I did looking back now.
+This research took up a significant part of my education, and I'm forever grateful to Professor Xun Jian for his grace, kindness, and excitement towards my projects! Research is a very difficult field; you'll often find yourself trying to answer questions that you're not sure can even be answered. Sometimes, you don't even know if you're asking the right question, and it's easy to find yourself suddenly in over your head. But if you're willing to stick with it, you're willing to always experiment and be patient, then you're bound to find amazing things. This research is one of my greatest prides, and I'm awestruck by how much I did looking back now.
 
 <p class="page__taxonomy">
   <strong><i class="fas fa-tags"></i> Tags:</strong>

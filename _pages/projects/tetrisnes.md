@@ -25,7 +25,7 @@ tags:
 </video>
 
 ## What It Is
-This is another school project, where me and the incredible programmer Chase Dillard set out to try and add modern mechanics to the outdated Tetris for NES. Specifically, we set to add in [wall-kicks](https://tetris.wiki/Super_Rotation_System#Wall_Kicks) and missing [rotation states](https://tetris.wiki/Super_Rotation_System).
+This is another school project, where the incredible programmer Chase Dillard and I set out to try to add modern mechanics to the outdated Tetris for NES. Specifically, we set to add in [wall-kicks](https://tetris.wiki/Super_Rotation_System#Wall_Kicks) and missing [rotation states](https://tetris.wiki/Super_Rotation_System).
 
 Here's the [link to GitHub and ROM](https://github.com/GingerDeity/TetrisNES)
 
@@ -40,24 +40,24 @@ My role ended up being a few things:
 - Designing the final PDF
 
 ## Why We Made This
-Tetris for the NES is one of the most famous versions of Tetris ever played (and is still played competitively!), but is missing modern mechanics such as wall-kicks and certain rotation states for the I, S, and Z blocks. This was actually Chase's project, and I just on as a collaborator since we both wanted to further enhance our disassembling skills and both had an affinity for retro games.
+Tetris for the NES is one of the most famous versions of Tetris ever played (and is still played competitively!), but it is missing modern mechanics such as wall-kicks and certain rotation states for the I, S, and Z blocks. This was actually Chase's project, and I just joined as a collaborator since we both wanted to further enhance our disassembling skills and both had an affinity for retro games.
 
 My focus was on adding the new rotation states. You can actually see I achieved this for the S and Z blocks in the video above if you know what to look for! Below is a visual of the original NES rotations, the modern SRS rotations, and what we hoped to achieve:
 {% include feature_row %}
 
 ## Development
-Development was slow, as I had many other projects I was dealing with, but I was able to get us a development environment where we could access and change the code of the game as needed. We used *Ghidra* to view and translate the decompilation of the ROM, and a *VSCode* environment to actually change the data of the ROM. We actually made a quick PowerPoint to document our progress, and difficulties, shown below
+Development was slow, as I had many other projects I was dealing with, but I was able to get us a development environment where we could access and change the code of the game as needed. We used *Ghidra* to view and translate the decompilation of the ROM, and a *VSCode* environment to actually change the data of the ROM. We actually made a quick PowerPoint to document our progress and difficulties, shown below
 
 <iframe src="/assets/files/TetrisNES.pdf" width="100%" height="600px"></iframe>
 
-You can find this powerpoint and a document-version of this in our [Github](https://github.com/GingerDeity/TetrisNES). The best part of this project was finding the graphics table, and having everything suddenly click for how Tetris pieces were displayed (slides 17-20). That was a huge eureka moment, and something I'm still proud of discovering mostly on my own.
+You can find this powerpoint and a document-version of this in our [Github](https://github.com/GingerDeity/TetrisNES). The best part of this project was finding the graphics table and having everything suddenly click for how Tetris pieces were displayed (slides 17-20). That was a huge eureka moment, and something I'm still proud of discovering mostly on my own.
 
 ## Final Thoughts
 
 ### What I Learned
-- I had never made my own development environment for a project like this, so compiling tools and procedures for creating ROMs, assemblies, disassemblies was fun!
-- It was also my first time working on viewing and translating disassemblies in general, my skills in that improved greatly
-- Understanding now NES developers would store data, feeling the pressure of every byte used adding to an already limited memory pool
+- I had never made my own development environment for a project like this, so compiling tools and procedures for creating ROMs, assemblies, and disassemblies was fun!
+- It was also my first time working on viewing and translating disassemblies in general; my skills in that improved greatly
+- Understanding how NES developers would store data, feeling the pressure of every byte used, adding to an already limited memory pool
 
 ### What I'd Do Differently
 - We could only get the new rotation states to work partially, and had to settle for the I-block no longer being included in the game. While there were solutions for this, we simply didn't have the time to implement them. I'd go back and make sure this was fixed
@@ -70,7 +70,7 @@ While the project was a lot of fun and was super exciting to decompile ourselves
 
 ## Play & Explore
 [Link to GitHub](https://github.com/GingerDeity/TetrisNES)
-Includes reports, instructions for a dev. environment, and our final submitted ROM
+Includes reports and instructions for a dev. environment, and our final submitted ROM
 
 <p class="page__taxonomy">
   <strong><i class="fas fa-tags"></i> Tags:</strong>

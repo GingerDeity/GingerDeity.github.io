@@ -18,12 +18,12 @@ tags:
 My time in the game development club was one of the absolute highlights of my time at Virginia Tech. I had been going since my first semester, but had the opportunity to serve as an officer by Fall '24! I was their secretary until I graduated, the only position that had no true description. The treasurer managed finances, the president led, the vice president assisted the president, and the secretary did... what? I got to pioneer the position, and was responsible for overseeing contracts that led to new meeting venues, guest speakers with decades of experience, and the rest of the work below!
 
 # Character Design Meeting
-This was the very first meeting I ever did for the club, focused entirely on character design. My goal for this meeting, and all future meetings, was two-fold: to have the meetings be *interactive classes*, and to focus on areas *outside of programming*. We had a ~95% programming audience, and I wanted to start showing our listeners the world of game-dev outside of that. To start, I had to teach myself character design! Below is the slideshow I created for the class!
+This was the very first meeting I ever did for the club, focused entirely on character design. My goal for this meeting, and all future meetings, was two-fold: to have the meetings be *interactive classes*, and to focus on areas *outside of programming*. We had a ~95% programming audience, and I wanted to start showing our listeners the world of game development outside of that. To start, I had to teach myself character design! Below is the slideshow I created for the class!
 
 <iframe src="/assets/files/CharacterDesign.pdf" width="100%" height="600px"></iframe>
 
 # Sound Design Meeting
-This is from the next meeting I hosted, where me and my friend Serena taught the basics of sound design! We took an originally silent Zelda animation by user Txikimorin on the r/zelda subreddit, showed the class how to use Wavacity, and gave them a zip file containing sound effects, the template video, and more! This was the example final product I made before the meeting, using free sound libraries and Wavacity.
+This is from the next meeting I hosted, where my friend Serena and I taught the basics of sound design! We took an originally silent Zelda animation by user Txikimorin on the r/zelda subreddit, showed the class how to use Wavacity, and gave them a zip file containing sound effects, the template video, and more! This was the example final product I made before the meeting, using free sound libraries and Wavacity.
 <video controls width="100%">
   <source src="/assets/videos/sound_design_final.mp4" type="video/mp4">
 </video>
@@ -45,7 +45,7 @@ These are promotional flyers I made for the Game Development Club at Virginia Te
 <img src="/assets/images/GDC/springjam.png" alt="Stickers" style="max-width: 600px; display: block; margin: 0 auto;">
 
 # Indie Game Showcase
-These are the brochure and stickers I created for the Indie Game Showcase our club managed, with both made in a graphic design program called *Canva*. I'm especially proud of the compact nature of the brochure, and the simple but effective sticker design! I definitely consider these to be evolutions from my previous flyers, which were done in PowerPoint.
+These are the brochure and stickers I created for the Indie Game Showcase our club managed, with both made in a graphic design program called *Canva*. I'm especially proud of the compact nature of the brochure and the simple but effective sticker design! I definitely consider these to be evolutions from my previous flyers, which were done in PowerPoint.
 
 <iframe src="/assets/files/IndieGameShowcaseBrochure.pdf" width="100%" height="600px"></iframe>
 
