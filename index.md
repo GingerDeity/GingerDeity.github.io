@@ -2,6 +2,7 @@
 layout: single
 classes: wide
 author_profile: true
+title: Home
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
