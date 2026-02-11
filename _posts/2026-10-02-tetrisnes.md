@@ -196,5 +196,5 @@ Because to create anything meaningful and to do it well is to embrace the restra
 
 I love magic, and these older games are it. They take nothing, and make *everything* out of it.
 
-> "If you want little boys to play Game Boy, pack in Mario—but if you want everyone to play Game Boy, pack in Tetris" 
-> <cite><a href="https://www.cnbc.com/2014/06/10/10-things-you-didnt-know.html">Henk Rogers</a></cite>
+> ""I think that inside every adult is the heart of a child. We just gradually convince ourselves that we have to act more like adults." 
+> <cite><a href="https://www.azquotes.com/author/10225-Shigeru_Miyamoto">Shigeru Miyamoto</a></cite>
