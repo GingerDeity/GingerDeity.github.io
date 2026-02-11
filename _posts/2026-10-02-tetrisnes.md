@@ -13,14 +13,15 @@ tags:
 ## The Story so Far...
 This was a school project during my last semester of college, for a reverse-engineering class. Me and another student worked together to try and add new mechanics to Tetris, the version released for the NES. Honestly, my original report does a pretty good job explaining it:
 
-> "Tetris is one of those classic games everyone knows about, and the version built for the Nintendo Entertainment System (NES) is one of the most famous renditions of that classic! However, this game was created in 1989, just two years before the Standard Rotation System (a system nearly all subsequent Tetris games followed) was created. As a result of this, the NES version used its own system that is significantly different from its successors. In this project, we intended to add in as many aspects of the Standard Rotation System (SRS) as much as possible. This revolved around two major features: adding in missing piece rotations, and adding in wall-kicking!" - Me, trying very hard to 'write good'
+> "Tetris is one of those classic games everyone knows about, and the version built for the Nintendo Entertainment System (NES) is one of the most famous renditions of that classic! However, this game was created in 1989, just two years before the Standard Rotation System (a system nearly all subsequent Tetris games followed) was created. As a result of this, the NES version used its own system that is significantly different from its successors. In this project, we intended to add in as many aspects of the Standard Rotation System (SRS) as much as possible. This revolved around two major features: adding in missing piece rotations, and adding in wall-kicking!"
+> <cite><a>Me, trying very hard to 'write good'</a></cite>
 
 That's right, this version of Tetris is actually *missing* pieces so to speak, and can seen quite plainly when you look at all possible rotations in the game:
 <p style="text-align:center;">
   <img src="/assets/images/TetrisNES/tetris_nes.png" style="max-width:600px;">
 </p>
 
-It becomes quite clear that we're missing rotations for the I, Z, and S blocks respectively. In reality, these blocks should have 4 rotations like so:
+It becomes quite clear that we're missing rotations for the I, S, and Z blocks (top to bottom). In reality, these blocks should have 4 rotations like so:
 <p style="text-align:center;">
   <img src="/assets/images/TetrisNES/tetris_nes_ideal.png" style="max-width:600px;">
 </p>
@@ -30,11 +31,11 @@ This is actually also taken directly from our final report, and shows my final p
 All in all, I look back on this project with a lot of pride, but also shame that I never got to reach my full vision.
 
 ## Why bring up the story now?
-As much as I would love to only focus on the *new* and *exciting* systems and projects that I'm working that aren't *implemented like a monkey to a typewriter*, I feel that would do a disservice to this Antholog. Looking back at what went wrong is important, and it makes us human.
+As much as I would love to only focus on the *new* and *exciting* systems and projects that I'm working on that aren't *implemented like a monkey to a typewriter*, I feel that would do a disservice to this Antholog. Looking back at what went wrong is important, and it makes us human.
 
 I actually do plan to **finish this project**, for the time being at least! The worst part about this project was that I had very little time to dedicate to it. My last semester I was dealing with:
 - 4 other intense classes
-- 2 group projects including this one
+- 2 group projects, including this one
 - helping run a club
 - working 20 hours a week doing my [research](https://gingerdeity.github.io/projects/deduplication/)
 - coordinating my graduation plans
@@ -116,15 +117,20 @@ In the end, I was able to switch my config file out for the one in the completed
 That's it! It's much more readable and does the exact same thing as the old one. The two biggest issues came from:
 
 1) Cross-referencing with the completed disassembly I linked to earlier, and looking at the ld65 documentation, the `FEATURES` and `SYMBOLS` sections seem to be entirely optional. We can remove these without issue
+
 2) I had no idea what the `MEMORY` or `SEGMENTS` sections did, but after much research and chatting with other developers and Claude AI, I've come to understand it much better
 
 ## What I've learned so far
 NES ROMs all use the iNES file format, and in that format we're mostly concerned with the following sections:
+
 1) Header (describes overall file layout, 16B)
+
 2) PRG ROM data (code and data banks, 16KB per bank)
+
 3) CHR ROM data, if present (graphics banks, 8KB per bank)
 
 **MEMORY Section**
+
 In the NES, the PRG ROM is interpreted by the CPU, whereas the CHR ROM is interpreted by the PPU (Picture-Processing Unit). In the CPU, the PRG ROM is given addresses `$8000-$FFFF`, and the graphics start immediately in the PPU. This is what the `MEMORY` section in our config is for, it essentially gives the correct labels to our PRG and CHR banks in our file to our header, so that emulators can do the correct address math. You'll notice the line:
 
     PRG: start = $8000, size = $8000, fill = yes, fillval = $00;
@@ -134,9 +140,10 @@ follows the exact standards of the NES's CPU, starting at the correct address an
 Also, As I found through painful experimentation, it's also **very** important you have the header, program data, and character data listed in ***that exact order***, as otherwise the header will tell basically emulators that the program data is located where the character data is, and vice-versa, making the game unplayable.
 
 **SEGMENT Section**
+
 As for the `SEGMENTS` section, this simply goes through our code, looking for the segments in it's list, and loading those segments to the correct areas of memory. So, our `CODE` segment will correctly load into the PRG-ROM section, and so on.
 
-One important distinction is the `VECTORS` segment, which holds the data for initializing the game when the console powers-on, and more. If the game doesn't have the correct location for these pointers, then the game won't be able to start correctly. This is going to be located in our PRG ROM, but we need the emulator to know exactly `where`, hence the `start` variable. Doing some math we can see that, in our final NES file, the location of the vectors will be:
+One important distinction is the `VECTORS` segment, which holds the data for initializing the game when the console powers-on, and more. If the game doesn't have the correct location for these pointers, then the game won't be able to start correctly. This is going to be located in our PRG ROM, but we need the emulator to know exactly *where*, hence the `start` variable. Doing some math we can see that, in our final NES file, the location of the vectors will be:
 
     $FFFA (location in emulated CPU's memory)
    -$8000 (location of PRG-ROM in emulated CPU's memory)
@@ -149,6 +156,7 @@ One important distinction is the `VECTORS` segment, which holds the data for ini
 Looking at $800A in the hex editor for our compiled NES file, you'll find 6 bytes, 2 for each pointer for the three vectors your game needs to start! 
 
 **Summary**
+
 - The config file is responsible for detailing the correct specifications to be stored in the final ROM so that corresponding emulators can play the game correctly
 - The `SEGMENTS` section starts by correctly assigning the segments to the `MEMORY` areas the emulator will look through. `CODE` goes to PRG and `CHR` goes to CHR.
 - The `VECTORS` segment is given further information so you can still find it even when hidden in the program data
@@ -168,6 +176,7 @@ Upon revisiting this project, I had a new theory, that if I fixed the config fil
 Unfortunately, that's not the case. When trying to remove certain functions that go completely unused in the game, this green screen of death happens more than you'd ever want. I've tried changing the config file, the assembler and disassembler settings, and more, but still nothing. At this point, there are two paths in front of me:
 
 1) Continue debugging and making my own disassembly work
+
 2) Start working and hacking on an already finished disassembly
 
 I've yet to decide, but will make up my mind in the following weeks.
@@ -175,7 +184,7 @@ I've yet to decide, but will make up my mind in the following weeks.
 ## Final Thoughts
 This is a very hard project, but also greatly touches upon what I love about these retro games. I feel that it's often very easy to take what society offers for granted. There have been so many times in my life where I'm walking through the city and stop for a brief moment, gazing at a building, only to say to myself,
 
-"Wow, look at all those bricks, all just on this one wall. There are dozens here, that had to be made, transported, and glued in place here. Then you have to do that for all the other walls, and that's not even considering the foundation, or roof, or floors, or anything else. This single wall of bricks is amazing, I don't think I'll ever take walls like this for granted ever again."
+*"Wow, look at all those bricks, all just on this one wall. There are dozens here, that had to be made, transported, and glued in place here. Then you have to do that for all the other walls, and that's not even considering the foundation, or roof, or floors, or anything else. This single wall of bricks is amazing, I don't think I'll ever take walls like this for granted ever again."*
 
 But we do. We do forget just how extraordinary the ordinary is, and who can blame us? Life is hard enough, and if we spent all day only focusing on what came before, we wouldn't get anywhere. In the world of computers, it's incredibly easy to take things like memory or computing speed for granted. Gigabytes are in places where megabytes used to be a dream, and processors are always faster than before. Even the languages we code in are readable and at least somewhat akin to the tenets of English!
 
@@ -184,6 +193,8 @@ Then you go back just 40 years ago. You look at the intense rigidity and limitat
 These games are... black magic. By all limits and reason, they shouldn't exist. Why go to so much trouble? Why do so much for so little? 
 
 Because to create anything meaningful and to do it well is to embrace the restraints. To do as much as you can with the limited tools at your disposal, to force yourself to be *that* good. *Then*, and only then, should your artistic shackles become removed. Just like when I was a kid, you don't get to use the calculator if you don't know how to multiply by yourself.
+
+I love magic, and these older games are it. They take nothing, and make *everything* out of it.
 
 > "If you want little boys to play Game Boy, pack in Mario—but if you want everyone to play Game Boy, pack in Tetris" 
 > <cite><a href="https://www.cnbc.com/2014/06/10/10-things-you-didnt-know.html">Henk Rogers</a></cite>
