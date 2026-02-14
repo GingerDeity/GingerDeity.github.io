@@ -4,6 +4,8 @@ layout: splash
 classes: wide
 excerpt: A romhack of Tetris for the NES, attempting to bring modern Tetris mechanics 
 permalink: /projects/tetris-romhack/
+highlight: true
+weight: 3
 header:
   overlay_filter: "0.5"
   overlay_image: /assets/images/TetrisNES/tetris_nes_header.png

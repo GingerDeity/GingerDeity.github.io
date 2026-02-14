@@ -4,7 +4,7 @@ layout: splash
 classes: wide
 excerpt: It's your childhood windowsill, and it's raining outside...
 highlight: true
-weight: 4
+weight: 5
 permalink: /projects/rainfall/
 header:
   overlay_filter: "0.5"

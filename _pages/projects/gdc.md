@@ -3,7 +3,7 @@ title: Game Dev. Club Materials
 permalink: /projects/gamedevclub
 layout: splash
 highlight: true
-weight: 5
+weight: 6
 header:
   overlay_color: "#000"
   overlay_filter: "0.5"
