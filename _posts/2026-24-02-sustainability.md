@@ -33,7 +33,7 @@ When I first moved after graduating from college, I swore to myself that I would
 <p style="text-align:center;">
   <img src="/assets/posts/2026-24-02/schedule1.png" style="max-width:600px;">
 </p>
-(may require opening in it's own tab to see properly)
+(may require opening in its own tab to see properly)
 
 I was waking up at 6:00 am, working out, showering, and then immediately working on networking and projects for at least 8 hours. I had screens off at exact minutes, I was performing at work, and I was following routines to a tee. Sure, I was a bit tired, but I felt like a brand new man.
 
@@ -83,7 +83,7 @@ Fortunately, I've been grateful enough to get to connect with lots of wise famil
 ## The First Draft
 As the first step towards really maturing my schedule, here's the first draft of that new life:
 <p style="text-align:center;">
-  <img src="/assets/posts/2026-24-02/schedule2.png" style="max-width:600px;">
+  <img src="/assets/posts/2026-24-02/schedule2.jpg" style="max-width:600px;">
 </p>
 
 As you can see, we've got more 'guidelines' than anything. Hardly any time-blocks, just general rules to try and follow. Some are per-day, some are per-week. No more "work out at exactly 6:30 am every morning", now it's just "aim for at least 3 sessions per week." What I love about this is that it gives me flexibility, so that if there's hypothetically a kickboxing class at 6:30 pm, then I'll be able to join without burning myself out! No more crazy strict routines, now it's just "work on your checklist between 9-5, enjoy life." It's even got my new favorite mantra at the bottom,
